@@ -36,10 +36,42 @@ Our team embarked on a mission to elevate the online presence of Plate of Nation
   - A timeline detailing PoN's history
   - Sponsors 
   
+# Summary of Research   
+### Methods 
+- Literature Review 
+- Market Research
+- User Interviews 
+- Concept Validation 
+- Usability Testing in person and on virtually (on zoom)
+
+### UX and UI Insights 
+1. Users are unwilling to read through heavy text 
+2. Creative, unique mobile experiences that differ in structure from typical mobile sites excite users. Don't be afraid to take design risks!
+3. Users hesitate to create a profile/ account just for a once a year event like Plate of Nations
+4. Show don't tell: Prompt users to take an action instead of instructing users how to use features (i.e. passport), information about the event (i.e. homepage), etc.
+5. Information about the event and how to participate should be clear and obvious (especially on homepage)
+6. User flow is disrupted if there are too many pages and buttons to click through
+7. Minimalistic design is well-received by users
+8. User flow can be organized using a storyboard describing user's journey
+
+### Insights on content of website 
+1. Users want to digitally keep track of their plate of nations' passport 
+2. Users appreciate being educated on cultural cusines, such as how to eat it and its cultural significance
+
+### Insight on food festivals/ event 
+1. Communication (marketing of the event) is essential to the success of a food event 
+2. Differences exist between the type of food event and audience attracted -- Younger individuals expect more than just a food festival (i.e. paired with music event)
+3. Food events positively affect customer purchasing behavior 
+4. Food events bring together communities and people 
+5. There are disaparities in cultural representation at food festivals  
+  
 # Design Information 
+### Tools 
+- Figma 
+
 ## Wireframes 
 [Figma Design File](https://www.figma.com/file/VYpA83RSUkxPBfgNtPGH52/Plate-of-Nations-Prototype?node-id=0%3A1&t=slbjDBr37xYiIqBk-1)
-- See how our design changed between iterations 
+- See how our design changed between iterations, from low-fidelity to high fidelity 
 - This website was based on iteration 4's design 
 - You will also find pictures of examples that served as inspiration for our design 
 

@@ -99,5 +99,5 @@ Reason
 
 [URL of Github Repo](https://github.com/menufacturers/pon-redesign)
 
-## Post Graduation Contact
+### Post Graduation Contact
 If you have any questions or concerns, please don't hesitate to contact us at menufacture.info@gmail.com

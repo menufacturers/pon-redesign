@@ -1,9 +1,5 @@
 # Plate of Nations Redesign
 
-Visit us at [Plate of Nations](https://pon-app.web.app/).
-
-![Plate of Nations mockup](public/img/pon-mockup.png)
-
 ## Project Status 
 This project was a student-driven Capstone at the University of Washington's Information School in Winter/Spring 2023. **Starting June 1st 2023, it will transition to open source** for future iSchool Capstone teams to develop (with no plans for maintenance by the original team).
 

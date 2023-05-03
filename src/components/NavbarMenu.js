@@ -3,12 +3,15 @@ import logo from "../assets/img/logo.svg";
 
 function NavbarMenu() {
     return (
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src={logo} width="30" height="30" class="d-inline-block align-top" alt=""/>
-                    Plate of Nations Redesign
-            </a>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src={logo} alt="Plate of Nations logo" width="30" height="24" class="d-inline-block align-text-top" />
+                    Plate of Nations
+                </a>
+            </div>
         </nav>
     );
 }
+
 export default NavbarMenu;

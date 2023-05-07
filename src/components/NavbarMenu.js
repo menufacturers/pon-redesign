@@ -1,39 +1,73 @@
-import logo from "../assets/img/logo.svg";
-// import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import "../assets/styles/NavbarMenu.css";
+// import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/pon-logo.png";
+import { useState } from "react";
 
-function NavbarMenu() {
-    return (
-        <nav class="navbar fixed-top bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src={logo} alt="Plate of Nations logo" width="30" height="24" class="d-inline-block align-text-top" />
-                    Plate of Nations
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="restaurants">Restaurants</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="passport">Passport</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="press">Press</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    );
+export default function NavbarMenu() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  return (
+    <nav className="navbar fixed-top navbar-expand-lg nav-color">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
+          <img
+            src={logo}
+            alt="Plate of Nations logo"
+            width="30"
+            className="d-inline-block align-text-top"
+          />
+          <span>Plate of Nations</span>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded={isExpanded}
+          aria-label="Toggle navigation"
+          onClick={toggleNavbar}
+        >
+          <span
+            className={`fa-solid ${isExpanded ? "fa-times" : "fa-bars"} fa-lg`}
+            id="navbar-icon"
+          ></span>
+        </button>
+
+        <div className={`collapse navbar-collapse ${isExpanded ? "show" : ""}`} id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="restaurants">
+                Restaurants
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="passport">
+                Passport
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="press">
+                Press
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="about">
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
-
-export default NavbarMenu;

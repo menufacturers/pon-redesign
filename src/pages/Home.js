@@ -1,30 +1,70 @@
-import { Link } from "react-router-dom";
-// import logo from './assets/img/logo.svg';
+import "../assets/styles/Home.css";
+import bananas from "../assets/img/vendors/bananas-grill-vendor.png";
+import passport from "../assets/img/passport-2023.png";
+import post from "../assets/img/pon-poster.png";
 
 export default function Home() {
     return (
-        <div className="App">
-            <header className="App-header">
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
-                {/* <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p> */}
-                <div class="container col-xxl-8 px-4 py-5">
-                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                        <div class="col-10 col-sm-8 col-lg-6">
-                            <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
-                        </div>
-                        <div class="col-lg-6">
-                            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        <div >
+            <div class="hero-banner">
+                <div class="container">
+                    <h1 class="intro-text">Bring the World to Your Plate!</h1>
+                    <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
+                    <div class="d-flex justify-content-center">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary btn-lg mb-3 mb-md-0">Learn More</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary btn-lg">Find Restaurants</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
+            <section id="passport">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <img src={passport} alt="Plate of Nations Passport" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Mark Your Foodie Adventure</h2>
+                            <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on a foodie adventure like no other!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="spotlight">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h2>Vendor Spotlight</h2>
+                            <p>Meet the stars behind the dishes you love! Our Vendor Spotlight shines a light on the amazing owners of the restaurants participating in Plate of Nations. Get to know their stories, their passions, and their secret recipes in this exciting and exclusive feature!</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src={bananas} alt="Plate of Nations vendors" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="socials">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <h2>Get the Latest From Us</h2>
+                        <p>#PON</p>
+                        <div class="col-lg-4">
+                            <img src={post} alt="Instagram post" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-4">
+                            <img src={post} alt="Instagram post" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-4">
+                            <img src={post} alt="Instagram post" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }

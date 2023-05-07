@@ -1,5 +1,5 @@
 .navbar {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .nav-color {
@@ -44,10 +44,6 @@
     border-radius: 4px;
 }
 
-/* .navbar-toggler:hover {
-    background-color: #aa2025;
-} */
-
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
 }
@@ -59,4 +55,10 @@
 
 .fa-solid:hover {
     color: #5E5B4B;
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding: 0 100px;
+    }
 }

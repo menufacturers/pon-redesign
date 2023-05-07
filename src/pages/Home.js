@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div >
             <div class="hero-banner">
-                <div class="container">
+                <div class="container hero-container">
                     <h1 class="intro-text">Bring the World to Your Plate!</h1>
                     <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
                     <div class="d-flex justify-content-center">
@@ -31,7 +31,7 @@ export default function Home() {
                         </div>
                         <div class="col-lg-6">
                             <h2>Mark Your Foodie Adventure</h2>
-                            <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on a foodie adventure like no other!</p>
+                            <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
                         </div>
                     </div>
                 </div>

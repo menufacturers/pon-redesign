@@ -3,6 +3,10 @@ h1,
     color: white;
 }
 
+.hero-container {
+    padding: 50px 20px;
+}
+
 .hero-banner {
     position: relative;
     padding-top: 100px;

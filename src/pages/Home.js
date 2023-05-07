@@ -1,4 +1,5 @@
 import "../assets/styles/Home.css";
+import { Link } from "react-router-dom";
 import bananas from "../assets/img/vendors/bananas-grill-vendor.png";
 import passport from "../assets/img/passport-2023.png";
 import post from "../assets/img/pon-poster.png";
@@ -13,10 +14,10 @@ export default function Home() {
                     <div class="d-flex justify-content-center">
                         <div class="row align-items-center">
                             <div class="col-md-6">
-                                <button class="btn btn-primary btn-lg mb-3 mb-md-0">Learn More</button>
+                                <Link class="btn btn-primary btn-lg mb-3 mb-md-0" to="../about" role="button">Learn More</Link>
                             </div>
                             <div class="col-md-6">
-                                <button class="btn btn-primary btn-lg">Find Restaurants</button>
+                                <Link class="btn btn-primary btn-lg" to="../restaurants" role="button">Find Restaurants</Link>
                             </div>
                         </div>
                     </div>

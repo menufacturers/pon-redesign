@@ -6,7 +6,8 @@ body {
 
 h1,
 h2,
-.btn-primary {
+.btn-primary,
+.btn-outline-secondary {
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -20,12 +21,14 @@ p {
   font-size: 20px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-outline-secondary {
   background-color: #FED136;
   border: transparent;
   border-radius: 8px;
   font-size: 30px;
   color: #212529;
+  padding: 10px 20px;
 }
 
 .btn-primary:hover {

@@ -11,15 +11,9 @@ export default function Home() {
                 <div class="container hero-container">
                     <h1 class="intro-text">Bring the World to Your Plate!</h1>
                     <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
-                    <div class="d-flex justify-content-center">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <Link class="btn btn-primary btn-lg mb-3 mb-md-0" to="../about" role="button">Learn More</Link>
-                            </div>
-                            <div class="col-md-6">
-                                <Link class="btn btn-primary btn-lg" to="../restaurants" role="button">Find Restaurants</Link>
-                            </div>
-                        </div>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <Link role="button" class="btn btn-primary btn-lg px-4 gap-3" to="../about">Learn More</Link>
+                        <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">Find Restaurants</Link>
                     </div>
                 </div>
             </div>

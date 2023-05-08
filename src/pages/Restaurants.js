@@ -8,6 +8,13 @@ export default function Restaurants() {
                 <li>Search</li>
                 <li>Filter + sort</li>
                 <li>Restaurant cards: distance, hours, cuisine</li>
+                <section id="cards">
+                <div class="container">
+                    <div class="row align-items-center">
+                   
+                    </div>
+                </div>
+            </section>
             </ul>
         </div>
     );

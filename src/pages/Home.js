@@ -2,7 +2,9 @@ import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
 import bananas from "../assets/img/vendors/bananas-grill-vendor.png";
 import passport from "../assets/img/passport-2023.png";
-import post from "../assets/img/pon-poster.png";
+import post1 from "../assets/img/post-1.jpg";
+import post2 from "../assets/img/post-2.jpeg";
+import post3 from "../assets/img/post-3.jpg";
 
 export default function Home() {
     return (
@@ -49,13 +51,13 @@ export default function Home() {
                         <h2>Get the Latest From Us</h2>
                         <p>#PON</p>
                         <div class="col-lg-4">
-                            <img src={post} alt="Instagram post" class="img-fluid" />
+                            <img src={post1} alt="Instagram post" class="img-fluid" />
                         </div>
                         <div class="col-lg-4">
-                            <img src={post} alt="Instagram post" class="img-fluid" />
+                            <img src={post2} alt="Instagram post" class="img-fluid" />
                         </div>
                         <div class="col-lg-4">
-                            <img src={post} alt="Instagram post" class="img-fluid" />
+                            <img src={post3} alt="Instagram post" class="img-fluid" />
                         </div>
                     </div>
                 </div>

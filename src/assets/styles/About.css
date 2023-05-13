@@ -1,0 +1,258 @@
+/* About Header */
+
+#about-quote1 h3, #about-quote2 h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+
+.about-header {
+    background-image: url('../img/about-header-background.png');
+    padding-top:150px;
+    padding-bottom: 35px;
+    margin-bottom:20px;
+
+}
+
+.about-header p {
+    font-size: 18px;
+    color:white;
+}
+
+/* 'What is Plate of Nations section */
+
+#about-event {
+    padding: 20px 0px;
+}
+
+/* Image carousel */
+
+.about-slides {
+    text-align: center;
+}
+/*'5 Easy Steps Section', navigation buttons, and formatting bullet points as images */
+
+#about-steps {
+    padding: 20px 0px;
+}
+
+ol.steps p {
+    font-size: 18px;
+    /* padding-left: 28px; */
+}
+
+li.step-one, li.step-two, li.step-three, li.step-four, li.step-five {
+    padding-top:20px;
+    font-size:24px;
+}
+
+.step-three {
+    padding-bottom:20px;
+}
+
+li.step-five {
+    padding-top:24px;
+}
+
+.hashtag {
+    color:#B32317;
+}
+
+.steps .btn-outline-secondary {
+    font-size: 24px;
+}
+
+.rest-btn {
+    margin-top:16px;
+}
+
+.nav-button {
+    padding-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.about-pon li.bullet-one::before {
+    content:"";
+    display:inline-block;
+    height:25px;
+    width:25px; 
+    background-size:25px;
+    background-image: url('../img/icons/globe.png');
+    background-repeat:no-repeat;
+    margin-right: 5px;
+}
+
+.about-pon li.bullet-two::before {
+    content:"";
+    display:inline-block;
+    height:25px;
+    width: 25px; 
+    background-size:25px;
+    background-image: url('../img/icons/search.png');
+    background-repeat:no-repeat;
+    margin-right: 5px;
+}
+
+.about-pon li.bullet-three::before {
+    content:"";
+    display:inline-block;
+    height:25px;
+    width: 25px; 
+    background-size: 20px;
+    background-image: url('../img/icons/utensil.png');
+    background-repeat:no-repeat;
+    margin-right: 5px;
+}
+
+.about-pon li.bullet-four::before {
+    content:"";
+    display:inline-block;
+    height:30px;
+    width: 30px; 
+    background-size: 25px;
+    background-image: url('../img/icons/medal.png');
+    background-repeat:no-repeat;
+    margin-right: 1px;
+}
+
+.about-pon li.bullet-five::before {
+    content:"";
+    display:inline-block;
+    height:25px;
+    width: 25px; 
+    background-size: 25px;
+    background-image: url('../img/icons/people.png');
+    background-repeat:no-repeat;
+    margin-right: 7px;
+}
+
+
+/*Quotes from stakeholders */
+#about-quote1 {
+    background-color:#D2922A;
+    color:white;
+    /* font-family:'Philosopher'; */
+    size:20px;
+    /* line-height: 22.4px;
+    font-weight:700; */
+    padding: 35px;
+    /* border-radius: 20px; */
+    margin: 20px 0px;
+}
+
+#about-quote2 {
+    background-color: #00A5B5;
+    color: white;
+    /* font-family:'Philosopher'; */
+    size:20px;
+    /* line-height: 22.4px;
+    font-weight:700; */
+    padding:35px;
+    /* border-radius: 20px; */
+    margin: 20px 0px;
+}
+
+/* Sponsors Logo */
+
+#about-sponsor img{
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: contain;
+}
+
+.about-pon li {
+    margin-top: 10px;
+}
+
+/* image carousel */
+
+.carousel {
+    width: 100vw; 
+    height: 100vh; 
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    inset:0; 
+    opacity: 0;
+}
+
+.slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin: 0px;
+    padding:0px 0px;
+}
+
+.slide[data-active] {
+    opacity:1; 
+}
+
+.carousel > ul {
+    margin:0;
+    padding: 0; 
+    list-style:none;
+}
+
+.carousel-button {
+    position: absolute; 
+    z-index:2;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    top: 50%;
+    transform : translate(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer; 
+    border-radius: .25rem;
+    padding: 0.5rem;
+    background-color:rgba (0, 0, 0, .1);
+}
+
+.carousel-button:hover, .carousel-button.focus {
+    color:white; 
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.carousel-button:focus {
+    outline: 1px solid black; 
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+.sponsor-logos {
+    text-align: center;
+}
+
+/* Collapsible Timeline of Plate of Nations*/
+
+#about-timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+  }
+
+#about-timeline .card {
+    background-color: rgba(0, 165, 181, .4);
+    margin:10px;
+}

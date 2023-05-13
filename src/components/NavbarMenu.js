@@ -33,7 +33,7 @@ export default function NavbarMenu() {
           onClick={toggleNavbar}
         >
           <span
-            className={`fa-solid ${isExpanded ? "fa-times" : "fa-bars"} fa-lg`}
+            className={`fa-solid nav-fa-solid ${isExpanded ? "fa-times" : "fa-bars"} fa-lg`}
             id="navbar-icon"
           ></span>
         </button>

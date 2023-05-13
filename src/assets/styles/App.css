@@ -7,12 +7,13 @@ body {
 h1,
 h2,
 .btn-primary,
-.btn-outline-secondary {
+.btn-outline-secondary,
+.btn-link {
   font-family: 'Bebas Neue', cursive;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 p {
@@ -77,4 +78,26 @@ p {
   --bs-btn-active-color: #FEC503;
   --bs-btn-active-bg: #212529;
   --bs-btn-active-border-color: #212529;
+}
+
+.btn-link {
+  color: #212529;
+  font-size: 30px;
+  padding-left: 0;
+  text-decoration: none
+}
+
+.btn-link:hover,
+.fa-solid .fa-arrow-right-long:hover {
+  --bs-btn-hover-color: white;
+}
+
+.btn-link:active,
+.fa-solid .fa-arrow-right-long:active {
+  --bs-btn-active-color: white;
+}
+
+.btn-link:focus,
+.fa-solid .fa-arrow-right-long:focus {
+  --bs-btn-focus-color: white;
 }

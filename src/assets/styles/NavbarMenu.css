@@ -48,12 +48,12 @@
     box-shadow: 0 0 0 0;
 }
 
-.fa-solid {
+.nav-fa-solid {
     padding: 5px 0;
     color: #76725E;
 }
 
-.fa-solid:hover {
+.nav-fa-solid:hover {
     color: #5E5B4B;
 }
 

@@ -1,6 +1,6 @@
 import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
-import bananas from "../assets/img/vendors/bananas-grill-vendor.png";
+import bananas from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
 import post1 from "../assets/img/post-1.jpg";
 import post2 from "../assets/img/post-2.jpeg";
@@ -33,14 +33,15 @@ export default function Home() {
                 </div>
             </section>
             <section id="spotlight">
-                <div class="container">
+                <div class="container spotlight-container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 spotlight-text">
                             <h2>Vendor Spotlight</h2>
                             <p>Meet the stars behind the dishes you love! Our Vendor Spotlight shines a light on the amazing owners of the restaurants participating in Plate of Nations. Get to know their stories, their passions, and their secret recipes in this exciting and exclusive feature!</p>
+                            <button type="button" class="btn btn-link">Read Their Stories <i class="fa-solid fa-arrow-right-long" ></i></button>
                         </div>
-                        <div class="col-lg-6">
-                            <img src={bananas} alt="Plate of Nations vendors" class="img-fluid" />
+                        <div class="col-lg-6 spotlight-img-container">
+                            <img src={bananas} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
                         </div>
                     </div>
                 </div>
@@ -48,8 +49,10 @@ export default function Home() {
             <section id="socials">
                 <div class="container socials-container">
                     <div class="row align-items-center">
-                        <h2>Get the Latest From Us</h2>
-                        <p>Follow along on Instagram <a class="hyperlink" href="https://www.instagram.com/plateofnations/" target="_blank" rel="noreferrer">@plateofnations</a> and share your delicious bites with <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations/" target="_blank" rel="noreferrer">#PlateOfNations</a>!</p>
+                        <div class="socials-text">
+                            <h2>Get the Latest From Us</h2>
+                            <p>Follow along on Instagram <a class="hyperlink" href="https://www.instagram.com/plateofnations/" target="_blank" rel="noreferrer">@plateofnations</a> and share your delicious bites with <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations/" target="_blank" rel="noreferrer">#PlateOfNations</a>!</p>
+                        </div>
                         <div class="col-lg-4">
                             <a href="https://www.instagram.com/p/CrlfRJOOcA-/" target="_blank" rel="noreferrer">
                                 <img src={post1} alt="Instagram post" class="img-fluid insta-post" />

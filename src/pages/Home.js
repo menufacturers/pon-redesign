@@ -1,6 +1,12 @@
 import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
 import alem from "../assets/img/restaurants/alem.png";
+import bananasgrill from "../assets/img/restaurants/bananasgrill.png";
+import bangkitchen from "../assets/img/restaurants/bangkitchen.png";
+import banhmi from "../assets/img/restaurants/banhmi.png";
+import buathai from "../assets/img/restaurants/buathai.png";
+import buddhabrud from "../assets/img/restaurants/buddhabrud.png";
+
 import bananas from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
 import post1 from "../assets/img/post-1.jpg";
@@ -20,7 +26,50 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <section id="food-showcase">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="image-container">
+                            <img src={alem} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={bananasgrill} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={bangkitchen} alt="..." />
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="image-container">
+                            <img src={banhmi} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={buathai} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={buddhabrud} alt="..." />
+                        </div>                    </div>
+                    <div class="carousel-item">
+                    <div class="image-container">
+                            <img src={bangkitchen} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={bananasgrill} alt="..." />
+                        </div>
+                        <div class="image-container">
+                            <img src={bangkitchen} alt="..." />
+                        </div>                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            {/* <section id="food-showcase">
                 <div class="container food-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -32,7 +81,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section id="spotlight">
                 <div class="container spotlight-container">
                     <div class="row align-items-center">

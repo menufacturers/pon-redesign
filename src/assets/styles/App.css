@@ -23,22 +23,58 @@ p {
 
 .btn-primary,
 .btn-outline-secondary {
-  background-color: #FED136;
-  border: transparent;
+  border-width: 4px;
   border-radius: 8px;
   font-size: 30px;
-  color: #212529;
   padding: 10px 20px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  border-color: transparent;
+  color: #212529;
+}
+
+.btn-primary {
+  background-color: #FED136;
 }
 
 .btn-primary:hover {
   background-color: #FEC503;
-  color: #212529;
 }
 
-/* .btn-primary:focus,
-.btn-primary:active,
-.btn-primary:disabled {
-  background-color: #FEC503;
-  color: #212529;
-} */
+.btn-primary:focus {
+  --bs-btn-focus-color: #212529;
+  --bs-btn-focus-bg: #FEC503;
+  --bs-btn-focus-border-color: #FEC503;
+}
+
+.btn-primary:active {
+  --bs-btn-active-color: #212529;
+  --bs-btn-active-bg: #FEC503;
+  --bs-btn-active-border-color: #FEC503;
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  border-color: #FED136;
+  color: #FED136;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #212529;
+  color: #FEC503;
+  border-color: #212529;
+}
+
+.btn-outline-secondary:focus {
+  --bs-btn-focus-color: #FEC503;
+  --bs-btn-focus-bg: #212529;
+  --bs-btn-focus-border-color: #212529;
+}
+
+.btn-outline-secondary:active {
+  --bs-btn-active-color: #FEC503;
+  --bs-btn-active-bg: #212529;
+  --bs-btn-active-border-color: #212529;
+}

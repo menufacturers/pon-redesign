@@ -40,6 +40,42 @@ h1,
     padding: 20px;
 }
 
+.socials-container {
+    margin: 100px auto;
+    padding: 0 1.5rem;
+}
+
+.hyperlink,
+.hyperlink:hover {
+    color: #BD2329;
+}
+
+.hyperlink {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hyperlink:hover {
+    text-decoration: underline;
+}
+
+.insta-post {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 12px solid white;
+}
+
+.col-lg-4:hover .insta-post {
+    opacity: 0.8;
+}
+
+.mid-post {
+    margin: 20px 0;
+}
+
 @media (min-width: 768px) {
     .hero-banner {
         height: 100vh;

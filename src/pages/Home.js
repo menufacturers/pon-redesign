@@ -46,18 +46,24 @@ export default function Home() {
                 </div>
             </section>
             <section id="socials">
-                <div class="container">
+                <div class="container socials-container">
                     <div class="row align-items-center">
                         <h2>Get the Latest From Us</h2>
-                        <p>#PON</p>
+                        <p>Follow along on Instagram <a class="hyperlink" href="https://www.instagram.com/plateofnations/" target="_blank" rel="noreferrer">@plateofnations</a> and share your delicious bites with <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations/" target="_blank" rel="noreferrer">#PlateOfNations</a>!</p>
                         <div class="col-lg-4">
-                            <img src={post1} alt="Instagram post" class="img-fluid" />
+                            <a href="https://www.instagram.com/p/CrlfRJOOcA-/" target="_blank" rel="noreferrer">
+                                <img src={post1} alt="Instagram post" class="img-fluid insta-post" />
+                            </a>
+                        </div>
+                        <div class="col-lg-4 mid-post">
+                            <a href="https://www.instagram.com/p/Cq8hgx8J_oa/" target="_blank" rel="noreferrer">
+                                <img src={post2} alt="Instagram post" class="img-fluid insta-post" />
+                            </a>
                         </div>
                         <div class="col-lg-4">
-                            <img src={post2} alt="Instagram post" class="img-fluid" />
-                        </div>
-                        <div class="col-lg-4">
-                            <img src={post3} alt="Instagram post" class="img-fluid" />
+                            <a href="https://www.instagram.com/p/Cq3OAZ5p12Z/" target="_blank" rel="noreferrer">
+                                <img src={post3} alt="Instagram post" class="img-fluid insta-post" />
+                            </a>
                         </div>
                     </div>
                 </div>

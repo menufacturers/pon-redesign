@@ -77,6 +77,11 @@ h1,
     height: auto;
 }
 
+.food-container,
+.passport-container {
+    margin: 100px auto;
+}
+
 .socials-container {
     margin: 70px auto;
     padding: 0 1.5rem;
@@ -140,7 +145,7 @@ h1,
     }
 
     .spotlight-container {
-        margin: 40px auto;
+        margin: 0 auto;
         padding: 0 1.5rem;
     }
 

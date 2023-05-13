@@ -1,5 +1,6 @@
 import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
+import alem from "../assets/img/restaurants/alem.png";
 import bananas from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
 import post1 from "../assets/img/post-1.jpg";
@@ -19,15 +20,15 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <section id="passport">
-                <div class="container">
+            <section id="food-showcase">
+                <div class="container food-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <img src={passport} alt="Plate of Nations Passport" class="img-fluid" />
+                            <img src={alem} alt="Plate of Nations Passport" class="img-fluid" />
                         </div>
                         <div class="col-lg-6">
-                            <h2>Mark Your Foodie Adventure</h2>
-                            <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
+                            <h2>Savor This</h2>
+                            <p>Sometimes it's hard to choose. We made it easy with these favorites.</p>
                         </div>
                     </div>
                 </div>
@@ -42,6 +43,20 @@ export default function Home() {
                         </div>
                         <div class="col-lg-6 spotlight-img-container">
                             <img src={bananas} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="passport">
+                <div class="container passport-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <img src={passport} alt="Plate of Nations Passport" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Mark Your Foodie Adventure</h2>
+                            <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
+                            <button type="button" class="btn btn-link passport-btn">Digitize My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
                         </div>
                     </div>
                 </div>

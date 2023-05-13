@@ -1,7 +1,32 @@
 .footer {
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.5em 0;
     background-color: #ECE4BB;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Bebas Neue', cursive;
     color: #5e5b4b;
+}
+
+.col-md-4 .copyright,
+.col-md-4:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-4:last-child i {
+    margin-right: 10px;
+}
+
+.socials-icon {
+    color: #5e5b4b;
+}
+
+.socials-icon:hover {
+    color: #76725E;
+}
+
+@media (min-width: 768px) {
+    .col-md-4:last-child {
+        justify-content: right;
+    }
 }

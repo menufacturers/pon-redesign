@@ -8,13 +8,31 @@ import buathai from "../assets/img/restaurants/buathai.png";
 import buddhabrud from "../assets/img/restaurants/buddhabrud.png";
 import cafetal from "../assets/img/restaurants/cafetal.jpg";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+
 
 export default function Restaurants() {
+    const [searchQuery, setSearchQuery] = useState("");
+
+    function handleSearchInputChange(event) {
+      setSearchQuery(event.target.value);
+    }
+//     const filteredRestaurants = restaurants.filter((restaurant) =>
+//     restaurant.name.toLowerCase().includes(searchQuery.toLowerCase())
+//   );
+  
     return (
         <div>
             <h1>Hello this is the restaurants page.</h1>
             <ul>
-                <li>Search</li>
+        <li>
+          <input
+            type="text"
+            placeholder="Search..."
+            value={searchQuery}
+            onChange={handleSearchInputChange}
+          />
+        </li>
 
                 <li>Filter + sort</li>
                 <li>Restaurant cards: distance, hours, cuisine</li>

@@ -1,21 +1,11 @@
 /* About Header */
+.about-banner {
+    background-image: url('../img/vendors.png');
+}
 
 #about-quote1 h3, #about-quote2 h3 {
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
-}
-
-.about-header {
-    background-image: url('../img/about-header-background.png');
-    padding-top:150px;
-    padding-bottom: 35px;
-    margin-bottom:20px;
-
-}
-
-.about-header p {
-    font-size: 18px;
-    color:white;
 }
 
 /* 'What is Plate of Nations section */

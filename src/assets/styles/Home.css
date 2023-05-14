@@ -16,7 +16,7 @@ h1,
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../img/hero-bg.jpeg");
+    background-image: url("../img/banners/hero-bg.jpeg");
     background-size: cover;
     width: 100vw;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);

@@ -1,9 +1,5 @@
-.restaurant-header {
-    background-image: url('../img/restaurant-banner.png');
-    padding-top:150px;
-    padding-bottom: 35px;
-    margin-bottom:20px;
-
+.restaurants-banner {
+    background-image: url('../img/banners/restaurant-banner.jpg');
 }
 
 .restaurant-header p {

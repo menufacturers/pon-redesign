@@ -1,4 +1,3 @@
-import { Navbar } from "react-bootstrap";
 import "../assets/styles/About.css";
 import { Link } from "react-router-dom";
 import SED from "../assets/img/sponsors/SED.png";
@@ -32,11 +31,8 @@ export default function About() {
 
     return (
         <div class="about">
-            <div class="about-header">
-                <div class="container">
-                    <h1>About Plate of Nations</h1>
-                    <p>See how you can join us for <em>the</em> food event of the MLK District & Rainer Valley Neighborhood</p>
-                </div>
+            <div class="page-banner about-banner">
+                <h1>About</h1>
             </div>
             <section id="about-event">
                 <div class="container">

@@ -3,17 +3,12 @@ import { Link } from "react-router-dom";
 import alem from "../assets/img/restaurants/alem.png";
 import bananasgrill from "../assets/img/restaurants/bananasgrill.png";
 import bangkitchen from "../assets/img/restaurants/bangkitchen.png";
-import banhmi from "../assets/img/restaurants/banhmi.png";
-import buathai from "../assets/img/restaurants/buathai.png";
-import buddhabrud from "../assets/img/restaurants/buddhabrud.png";
-import cafetal from "../assets/img/restaurants/cafetal.jpg";
-
-import bananas from "../assets/img/vendors/vendors-deco.png";
+import vendors from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
+import waves from "../assets/img/waves.png";
 import post1 from "../assets/img/social-posts/post-1.jpg";
 import post2 from "../assets/img/social-posts/post-2.jpeg";
 import post3 from "../assets/img/social-posts/post-3.jpg";
-import waves from "../assets/img/waves.png";
 
 export default function Home() {
     return (
@@ -74,7 +69,7 @@ export default function Home() {
                             <button type="button" class="btn btn-link white-btn-link">Read Their Stories <i class="fa-solid fa-arrow-right-long" ></i></button>
                         </div>
                         <div class="col-lg-6 spotlight-img-container">
-                            <img src={bananas} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
+                            <img src={vendors} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
                         </div>
                     </div>
                 </div>

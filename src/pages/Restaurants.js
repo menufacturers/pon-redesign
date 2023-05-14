@@ -11,7 +11,7 @@ import banhmi from "../assets/img/restaurants/food/banhmi.png";
 import buathai from "../assets/img/restaurants/food/buathai.png";
 import buddhabrud from "../assets/img/restaurants/food/buddhabrud.png";
 import cafetal from "../assets/img/restaurants/food/cafetal.jpg";
-
+import SearchBar from "./SearchBar";
 
 export default function Restaurants() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -33,6 +33,7 @@ export default function Restaurants() {
                     <p>Find all participating restaurants here!</p>
                 </div>
             </div>
+            <SearchBar />
             <RestaurantCard
                 imgLink={alem}
                 imgAlt="Alem food"

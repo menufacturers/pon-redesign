@@ -28,52 +28,21 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
-            {/* <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="image-container">
-                            <img src={alem} alt="..." />
+            <section id="food-gallery">
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4">
+                            <img src={alem} class="img-fluid" alt="Alem food" />
                         </div>
-                        <div class="image-container">
-                            <img src={bananasgrill} alt="..." />
+                        <div class="col-lg-4">
+                            <img src={bananasgrill} class="img-fluid " alt="Bananas Grill food" />
                         </div>
-                        <div class="image-container">
-                            <img src={bangkitchen} alt="..." />
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="image-container">
-                            <img src={banhmi} alt="..." />
-                        </div>
-                        <div class="image-container">
-                            <img src={buathai} alt="..." />
-                        </div>
-                        <div class="image-container">
-                            <img src={buddhabrud} alt="..." />
-                        </div>                    </div>
-                    <div class="carousel-item">
-                        <div class="image-container">
-                            <img src={cafetal} alt="..." />
-                        </div>
-                        <div class="image-container">
-                            <img src={bananasgrill} alt="..." />
-                        </div>
-                        <div class="image-container">
-                            <img src={bangkitchen} alt="..." />
+                        <div class="col-lg-4">
+                            <img src={bangkitchen} class="img-fluid" alt="Bang Kitchen food" />
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div> */}
-
+            </section>
             <section id="spotlight">
                 <div class="container spotlight-container">
                     <div class="row align-items-center">
@@ -97,7 +66,9 @@ export default function Home() {
                         <div class="col-lg-6 passport-text">
                             <h2>Mark Your Foodie Adventure</h2>
                             <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
-                            <button type="button" class="btn btn-link red-btn-link">Digitize My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
+                            <Link to="../passport">
+                                <button type="button" class="btn btn-link red-btn-link">Digitize My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
+                            </Link>
                         </div>
                     </div>
                 </div>

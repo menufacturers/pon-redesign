@@ -34,17 +34,45 @@ h1,
     margin-bottom: 2rem;
 }
 
-/* .carousel-item .image-container {
-    display: inline-block;
-    width: 33.33%;
-    padding: 5px;
-    box-sizing: border-box;
+#food-gallery .container-fluid {
+    padding: 0;
+    overflow: hidden;
 }
 
-.carousel-item .image-container img {
+
+#food-gallery img {
+    padding: 0;
     width: 100%;
-    height: auto;
-} */
+    height: 100%;
+    object-fit: cover;
+}
+
+#food-gallery .col-lg-4 {
+    width: 33.33%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 767px) {
+    #food-gallery .row>div:not(:first-child) {
+        display: none;
+    }
+
+    #food-gallery .row>div:first-child {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #food-gallery .row>div:nth-child(3) {
+        display: none;
+    }
+
+    #food-gallery .row>div:first-child,
+    #food-gallery .row>div:nth-child(2) {
+        width: 50%;
+    }
+}
 
 #spotlight {
     background-color: #F1BC32;

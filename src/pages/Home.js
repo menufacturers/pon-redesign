@@ -1,8 +1,8 @@
 import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
-import alem from "../assets/img/restaurants/alem.png";
-import bananasgrill from "../assets/img/restaurants/bananasgrill.png";
-import bangkitchen from "../assets/img/restaurants/bangkitchen.png";
+import alem from "../assets/img/restaurants/food/alem.png";
+import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
+import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
 import vendors from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
 import waves from "../assets/img/waves.png";
@@ -17,7 +17,7 @@ export default function Home() {
                 <div class="container hero-container">
                     <h1 class="intro-text">Bring the World to Your Plate!</h1>
                     <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
-                    <p class="event-date">March 24, 2023 - April 9 2023</p>
+                    <p class="event-date">March 24, 2023 - April 9, 2023</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <Link role="button" class="btn btn-primary btn-lg px-4 gap-3" to="../restaurants">Find Restaurants</Link>
                         <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../about">Learn More</Link>
@@ -66,7 +66,7 @@ export default function Home() {
                         <div class="col-lg-6 spotlight-text">
                             <h2>Vendor Spotlight</h2>
                             <p>Meet the stars behind the dishes you love! Our Vendor Spotlight shines a light on the amazing owners of the restaurants participating in Plate of Nations. Get to know their stories, their passions, and their secret recipes in this exciting and exclusive feature!</p>
-                            <button type="button" class="btn btn-link white-btn-link">Read Their Stories <i class="fa-solid fa-arrow-right-long" ></i></button>
+                            <button type="button" class="btn btn-link white-btn-link">Keep On Reading <i class="fa-solid fa-arrow-right-long" ></i></button>
                         </div>
                         <div class="col-lg-6 spotlight-img-container">
                             <img src={vendors} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
@@ -84,7 +84,7 @@ export default function Home() {
                             <h2>Mark Your Foodie Adventure</h2>
                             <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
                             <Link to="../passport">
-                                <button type="button" class="btn btn-link red-btn-link">Digitize My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
+                                <button type="button" class="btn btn-link red-btn-link">Explore My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
                             </Link>
                         </div>
                     </div>

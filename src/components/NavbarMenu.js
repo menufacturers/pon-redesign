@@ -1,5 +1,4 @@
 import "../assets/styles/NavbarMenu.css";
-// import logo from "../assets/img/logo.svg";
 import logo from "../assets/img/pon-logo.png";
 import { useState } from "react";
 

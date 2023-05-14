@@ -1,13 +1,16 @@
 import "../assets/styles/Restaurants.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import alem from "../assets/img/restaurants/alem.png";
-import bananasgrill from "../assets/img/restaurants/bananasgrill.png";
-import bangkitchen from "../assets/img/restaurants/bangkitchen.png";
-import banhmi from "../assets/img/restaurants/banhmi.png";
-import buathai from "../assets/img/restaurants/buathai.png";
-import buddhabrud from "../assets/img/restaurants/buddhabrud.png";
-import cafetal from "../assets/img/restaurants/cafetal.jpg";
+import RestaurantCard from "../components/RestaurantCard";
+import alem from "../assets/img/restaurants/food/alem.png";
+import alemlogo from "../assets/img/restaurants/restaurant-logos/alem-logo.png";
+import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
+import bananaslogo from "../assets/img/restaurants/restaurant-logos/bananas-logo.jpeg"
+import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
+import banhmi from "../assets/img/restaurants/food/banhmi.png";
+import buathai from "../assets/img/restaurants/food/buathai.png";
+import buddhabrud from "../assets/img/restaurants/food/buddhabrud.png";
+import cafetal from "../assets/img/restaurants/food/cafetal.jpg";
 
 
 export default function Restaurants() {
@@ -23,8 +26,35 @@ export default function Restaurants() {
     return (
         <div>
             <div class="page-banner restaurants-banner">
-                <h1>Restaurants</h1>
+                <div>
+                    <h1>Restaurants</h1>
+                </div>
+                <div>
+                    <p>Find all participating restaurants here!</p>
+                </div>
             </div>
+            <RestaurantCard
+                imgLink={alem}
+                imgAlt="Alem food"
+                logoImg={alemlogo}
+                logoAlt="Alem logo"
+                title="Alem"
+                cuisine={"Ethiopian, Eritrian"}
+                hours="10:00 AM - 12:00 AM"
+                location="Columbia City"
+                visitLink="../restaurants"
+            />
+            <RestaurantCard
+                imgLink={bananasgrill}
+                imgAlt="Bananas Grill"
+                logoImg={bananaslogo}
+                logoAlt="Bananas Grill logo"
+                title="Bananas Grill"
+                cuisine={"Halal, Somali, Mediterranean"}
+                hours="11:00 AM - 9:00 PM"
+                location="Columbia City"
+                visitLink="../restaurants"
+            />
             <ul>
                 <li>
                     <input

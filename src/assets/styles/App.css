@@ -58,14 +58,14 @@ p {
 
 .btn-outline-secondary {
   background-color: transparent;
-  border-color: #FED136;
-  color: #FED136;
+  border-color: #F7F4E3;
+  color: #F7F4E3;
 }
 
 .btn-outline-secondary:hover {
-  background-color: #212529;
-  color: #FEC503;
-  border-color: #212529;
+  background-color: #E7732B;
+  color: #F7F4E3;
+  border-color: #E7732B;
 }
 
 .btn-outline-secondary:focus {
@@ -87,17 +87,32 @@ p {
   text-decoration: none
 }
 
-.btn-link:hover,
+.white-btn-link:hover,
 .fa-solid .fa-arrow-right-long:hover {
   --bs-btn-hover-color: white;
 }
 
-.btn-link:active,
+.white-btn-link:active,
 .fa-solid .fa-arrow-right-long:active {
   --bs-btn-active-color: white;
 }
 
-.btn-link:focus,
+.white-btn-link:focus,
 .fa-solid .fa-arrow-right-long:focus {
   --bs-btn-focus-color: white;
+}
+
+.red-btn-link:hover,
+.fa-solid .fa-arrow-right-long:hover {
+  --bs-btn-hover-color: #BD2329;
+}
+
+.red-btn-link:active,
+.fa-solid .fa-arrow-right-long:active {
+  --bs-btn-active-color: #BD2329;
+}
+
+.red-btn-link:focus,
+.fa-solid .fa-arrow-right-long:focus {
+  --bs-btn-focus-color: #BD2329;
 }

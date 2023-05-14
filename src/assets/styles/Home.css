@@ -60,17 +60,22 @@ h1,
     padding: 0;
 }
 
-.spotlight-text {
+.spotlight-text,
+.passport-text {
     position: relative;
 }
 
+.spotlight-text::after,
+.passport-text::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+}
+
 .spotlight-text::after {
-    content: '';
     position: absolute;
     bottom: 10px;
     left: 0;
-    width: 50px;
-    height: 3px;
     background-color: #F7F4E3;
 }
 
@@ -78,20 +83,31 @@ h1,
     margin-bottom: 50px;
 }
 
-.spotlight-img-container {
+.spotlight-img-container,
+.passport-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.spotlight-img {
+.spotlight-img,
+.passport-img {
     width: 100%;
     height: auto;
 }
 
-.food-container,
 .passport-container {
     margin: 100px auto;
+}
+
+.passport-text {
+    padding: 25px 24px;
+}
+
+.passport-text::after {
+    display: block;
+    background-color: #BD2329;
+    margin-top: -10px;
 }
 
 .socials-container {
@@ -102,18 +118,11 @@ h1,
 .socials-text {
     position: relative;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.socials-text::before {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background-color: #76725E;
+.waves-deco {
+    width: 150px;
 }
 
 .hyperlink,

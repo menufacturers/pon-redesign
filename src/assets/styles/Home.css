@@ -1,5 +1,6 @@
 h1,
-.lead {
+.lead,
+.event-date {
     color: white;
 }
 
@@ -31,6 +32,11 @@ h1,
 .lead {
     font-size: 24px;
     font-weight: 500;
+}
+
+.event-date {
+    font-weight: 700;
+    font-size: 26px;
     margin-bottom: 2rem;
 }
 
@@ -51,6 +57,41 @@ h1,
     width: 33.33%;
     padding-right: 0;
     padding-left: 0;
+}
+
+.food-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.food-img {
+    position: relative;
+    width: 50%;
+}
+
+.food-img:hover .food-overlay {
+    opacity: 1;
+}
+
+.food-overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
 }
 
 @media (max-width: 767px) {

@@ -22,6 +22,7 @@ export default function Home() {
                 <div class="container hero-container">
                     <h1 class="intro-text">Bring the World to Your Plate!</h1>
                     <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
+                    <p class="event-date">March 24, 2023 - April 9 2023</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <Link role="button" class="btn btn-primary btn-lg px-4 gap-3" to="../restaurants">Find Restaurants</Link>
                         <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../about">Learn More</Link>
@@ -31,14 +32,35 @@ export default function Home() {
             <section id="food-gallery">
                 <div class="container-fluid p-0">
                     <div class="row no-gutters">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 food-img">
                             <img src={alem} class="img-fluid" alt="Alem food" />
+                            <div class="food-overlay">
+                                <div class="food-overlay-text">
+                                    <h3>Alem</h3>
+                                    <p>Chicken tibs / spicy chicken / veggie platter with injera bread</p>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 food-img">
                             <img src={bananasgrill} class="img-fluid " alt="Bananas Grill food" />
+                            <div class="food-overlay">
+                                <div class="food-overlay-text">
+                                    <h3>Bananas Grill</h3>
+                                    <p>Falafal, hummus & pita, dolmas, vegeterian sambusas, rice</p>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 food-img">
                             <img src={bangkitchen} class="img-fluid" alt="Bang Kitchen food" />
+                            <div class="food-overlay">
+                                <div class="food-overlay-text">
+                                    <h3>Bang Bang Kitchen</h3>
+                                    <p>Chips with salsa / hatch chile queso, chicken wings, fried brussel sprouts, enchiladas ...</p>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

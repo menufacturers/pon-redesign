@@ -1,3 +1,16 @@
+.restaurant-header {
+    background-image: url('../img/restaurant-banner.png');
+    padding-top:150px;
+    padding-bottom: 35px;
+    margin-bottom:20px;
+
+}
+
+.restaurant-header p {
+    font-size: 18px;
+    color:white;
+}
+
 .btn-link {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }

@@ -22,8 +22,14 @@ export default function Restaurants() {
 //   );
   
     return (
+        
         <div>
-            <h1>Hello this is the restaurants page.</h1>
+            <div class="restaurant-header">
+                <div class="container">
+                    <h1>Restaurants</h1>
+                    <p>Explore all the restaurants that are participating in Plate of Nations this year!</p>
+                </div>
+            </div>
             <ul>
         <li>
           <input

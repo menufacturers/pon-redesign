@@ -17,7 +17,7 @@ export default function RestaurantCard(props) {
                             <h3 class="card-title m-0">{props.title}</h3>
                         </div>
                         {cuisines.map((cuisine) => (
-                            <span class="badge text-bg-light me-2">{cuisine}</span>
+                            <span class="badge rounded-pill text-bg-light me-2">{cuisine}</span>
                         ))}
                         <p class="card-text"><i class="fa-solid fa-location-dot"></i> {props.location}</p>
                         <p class="card-text"><b>Open today from </b>{props.hours}</p>

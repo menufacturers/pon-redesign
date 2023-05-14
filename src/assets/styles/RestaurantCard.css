@@ -1,7 +1,7 @@
 .restaurant-card {
     border-radius: 8px;
     border-width: 4px;
-    border-color: #F7F4E3;
+    border-color: #ECE4BB;
     background-color: white;
 }
 
@@ -34,16 +34,20 @@
 }
 
 .text-bg-light {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 20px;
-    background-color: #EBEBEC!important;
-    color: #212529!important;
+    font-size: 16px;
+    background-color: #ECE4BB !important;
+    color: #212529 !important;
+    padding: 8px 12px;
 }
 
 .card-btn {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 24px;
+    /* background-color: #E7732B;
+    border-color: #E7732B;
+    color: #F7F4E3; */
 }
 
 @media (min-width: 768px) {

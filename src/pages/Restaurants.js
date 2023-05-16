@@ -7,6 +7,7 @@ import alemlogo from "../assets/img/restaurants/restaurant-logos/alem-logo.png";
 import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
 import bananaslogo from "../assets/img/restaurants/restaurant-logos/bananas-logo.jpeg"
 import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
+import banglogo from "../assets/img/restaurants/restaurant-logos/bang-logo.jpeg"
 import banhmi from "../assets/img/restaurants/food/banhmi.png";
 import buathai from "../assets/img/restaurants/food/buathai.png";
 import buddhabrud from "../assets/img/restaurants/food/buddhabrud.png";
@@ -30,32 +31,45 @@ export default function Restaurants() {
                     <h1>Restaurants</h1>
                 </div>
                 <div>
-                    <p>Find all participating restaurants here!</p>
+                    <p>Find and explore all participating restaurants here!</p>
                 </div>
             </div>
             <SearchBar />
+            
             <RestaurantCard
                 imgLink={alem}
                 imgAlt="Alem food"
                 logoImg={alemlogo}
                 logoAlt="Alem logo"
                 title="Alem"
-                cuisine={"Ethiopian, Eritrian"}
+                cuisine={"Eritrian, Ethiopian"}
                 hours="10:00 AM - 12:00 AM"
                 location="Columbia City"
                 visitLink="../restaurants"
             />
             <RestaurantCard
                 imgLink={bananasgrill}
-                imgAlt="Bananas Grill"
+                imgAlt="Bananas Grill food"
                 logoImg={bananaslogo}
                 logoAlt="Bananas Grill logo"
                 title="Bananas Grill"
-                cuisine={"Halal, Somali, Mediterranean"}
+                cuisine={"Halal, Mediterranean, Somali"}
                 hours="11:00 AM - 9:00 PM"
                 location="Columbia City"
                 visitLink="../restaurants"
             />
+            <RestaurantCard
+                imgLink={bangkitchen}
+                imgAlt="Bang Bang Kitchen food"
+                logoImg={banglogo}
+                logoAlt="Bang Bang Kitchen logo"
+                title="Bang Bang Kitchen"
+                cuisine={"American, Mexican, New Mexican"}
+                hours="4:00 PM - 10:00 PM"
+                location="Othello"
+                visitLink="../restaurants"
+            />
+
             <ul>
                 <li>
                     <input
@@ -65,61 +79,6 @@ export default function Restaurants() {
                         onChange={handleSearchInputChange}
                     />
                 </li>
-
-                <li>Filter + sort</li>
-                <li>Restaurant cards: distance, hours, cuisine</li>
-
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={alem} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Alem</h2>
-                                <p>Open today: 10:00 AM - 12:00 AM</p>
-                                <p>Located: Columbia City</p>
-                                <p>Cuisine: Ethiopian</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4" to="../restaurants">Visit Restaurant</Link>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={bananasgrill} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Bananas Grill</h2>
-                                <p>Open today: 11:00 AM - 9:00 PM</p>
-                                <p>Located: Columbia City</p>
-                                <p>Cuisine: Mediterranean, Somali</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4">Visit Restaurant</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={bangkitchen} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Bang Bang Kitchen</h2>
-                                <p>Open today: 4:00 PM - 10:00 PM</p>
-                                <p>Located: Othello</p>
-                                <p>Cuisine: American, Mexican</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4">Visit Restaurant</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
                 <section id="cards">
                     <div class="container">

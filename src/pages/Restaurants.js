@@ -31,7 +31,7 @@ export default function Restaurants() {
                     <h1>Restaurants</h1>
                 </div>
                 <div>
-                    <p>Find and explore all participating restaurants here!</p>
+                    <p class="page-description">Find and explore all participating restaurants here!</p>
                 </div>
             </div>
             <SearchBar />

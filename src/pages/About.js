@@ -1,9 +1,16 @@
 import "../assets/styles/About.css";
 import { Link } from "react-router-dom";
 import emeraldvendor from "../assets/img/vendors/emerald-city-vendors.jpg";
-import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
+import huongvendor from "../assets/img/vendors/huong-duong-vendors.jpg";
 import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
 import asari from "../assets/img/vendors/asari-icon.png"
+import poster2018 from "../assets/img/posters/pon-poster-2018.png"
+import poster2019 from "../assets/img/posters/pon-poster-2019.png"
+import poster2020 from "../assets/img/posters/pon-poster-2020.png"
+import poster2021 from "../assets/img/posters/pon-poster-2021.png"
+import poster2022 from "../assets/img/posters/pon-poster-2022.png"
+import poster2023 from "../assets/img/posters/pon-poster-2023.png"
+import decoposter from "../assets/img/posters/poster-2023.png"
 
 import SED from "../assets/img/sponsors/SED.png";
 import amazon from "../assets/img/sponsors/amazon.png"
@@ -16,48 +23,78 @@ import homesight from "../assets/img/sponsors/homesight.png"
 
 export default function About() {
 
-    const buttons = document.querySelectorAll("[data-carousel-button]")
+    // const buttons = document.querySelectorAll("[data-carousel-button]")
 
-    buttons.forEach(button => {
-        button.addEventListener("click", () => {
-            const offset = button.dataset.carouselButton === "next" ? 1 : -1
-            const slides = button
-                .closest("[data-carousel]")
-                .querySelector("[data-slides]")
-            const activeSlide = slides.querySelector("[data-active]")
-            let newIndex = [...slides.children].indexOf(activeSlide) + offset
-            if (newIndex < 0) newIndex = slides.children.length - 1
-            if (newIndex >= slides.children.length) newIndex = 0
+    // buttons.forEach(button => {
+    //     button.addEventListener("click", () => {
+    //         const offset = button.dataset.carouselButton === "next" ? 1 : -1
+    //         const slides = button
+    //             .closest("[data-carousel]")
+    //             .querySelector("[data-slides]")
+    //         const activeSlide = slides.querySelector("[data-active]")
+    //         let newIndex = [...slides.children].indexOf(activeSlide) + offset
+    //         if (newIndex < 0) newIndex = slides.children.length - 1
+    //         if (newIndex >= slides.children.length) newIndex = 0
 
-            slides.children[newIndex].dataset.active = true
-            delete activeSlide.dataset.active
-        })
-    })
+    //         slides.children[newIndex].dataset.active = true
+    //         delete activeSlide.dataset.active
+    //     })
+    // })
 
     return (
         <div class="about">
             <div class="page-banner about-banner">
                 <h1>About</h1>
                 <div>
-                    <p class="page-description">Discover the story behind our passion for great food and memorable experiences.</p>
+                    <p class="page-description">Discover the story behind Plate of Nations.</p>
                 </div>
             </div>
-            <section id="passport">
-                <div class="container passport-container">
+
+            <section id="event-overview">
+                <div class="container overview-container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 passport-text">
+                        <div class="col-lg-6 overview-text">
                             <h2>A Feast for the Senses</h2>
-                            <p>Conceived by Asari Mohamath, a Cham Muslim refugee from Vietnam and former owner of Salima restaurant, Plate of Nations is a signature event of the MLK Business Association and has been captivating food enthusiasts since 2011. Immigrant-owned businesses take center stage and offer Special Menus to Share priced at $20 and $35 during this two-week feast of flavors and celebration of culture and diversity every spring.</p>
-                            <Link to="../passport">
-                                <button type="button" class="btn btn-link red-btn-link">Explore My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
-                            </Link>
+                            <p>Whether you’re looking for Mexico City-style street food like guaraches and tortas, Ethiopian classics served over fresh injera, or smoky Vietnamese claypot, Southeast Seattle has it all. For two weeks every spring, Plate of Nations invites food lovers and curiosity seekers to sample $20 and $35 shareable plates offered by restaurants in the city’s most diverse neighborhoods.</p>
                         </div>
-                        <div class="col-lg-6 passport-img-container">
-                            <img src={asari} alt="Asari Mohamath" class="img-fluid passport-img" />
+                        <div class="col-lg-6 overview-img-container">
+                            <img src={decoposter} alt="Plate of Nations 2023 promotional poster" class="img-fluid overview-img" />
                         </div>
                     </div>
                 </div>
             </section>
+            <section id="faq">
+                <div class="box">
+                    <h2>Text Here</h2>
+                    <p>Some content goes here...</p>
+                </div>
+            </section>
+            <section id="promo-vid">
+                <div class="container vid-container">
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MevfZLOdIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+
+            {/* <div class="row row-cols-md-5 g-0">
+                <div class="col-md">
+                    <img src={poster2018} class="img-fluid poster-img" alt="Poster 1"/>
+                </div>
+                <div class="col-md">
+                    <img src={poster2019} class="img-fluid poster-img" alt="Poster 2"/>
+                </div>
+                <div class="col-md">
+                    <img src={poster2020} class="img-fluid poster-img" alt="poster 3"/>
+                </div>
+                <div class="col-md">
+                    <img src={poster2021} class="img-fluid poster-img" alt="poster 4"/>
+                </div>
+                <div class="col-md">
+                    <img src={poster2022} class="img-fluid poster-img" alt="poster 5"/>
+                </div>
+            </div> */}
+
             <section id="food-gallery">
                 <div class="container-fluid p-0">
                     <div class="row no-gutters">
@@ -72,7 +109,7 @@ export default function About() {
                             </div>
                         </div>
                         <div class="col-lg-4 food-img">
-                            <img src={bananasgrill} class="img-fluid " alt="Bananas Grill food" />
+                            <img src={huongvendor} class="img-fluid " alt="Bananas Grill food" />
                             <div class="food-overlay">
                                 <div class="food-overlay-text">
                                     <h3>Bananas Grill</h3>

@@ -16,7 +16,7 @@ export default function Home() {
             <div class="hero-banner">
                 <div class="container hero-container">
                     <h1 class="intro-text">Bring the World to Your Plate!</h1>
-                    <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Rainier Valley.</p>
+                    <p class="lead">Experience global flavors at Plate of Nations! Join our annual celebration of diversity and indulge in mouthwatering delights from immigrant-owned businesses in Southeast Seattle.</p>
                     <p class="event-date">March 24, 2023 - April 9, 2023</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <Link role="button" class="btn btn-primary btn-lg px-4 gap-3" to="../restaurants">Find Restaurants</Link>

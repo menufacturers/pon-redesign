@@ -1,7 +1,5 @@
 .press-banner {
-    background-image: url('../img/banners/MediaBanner.png');
-    height: 300px;
-    margin-bottom: 40px;
+    background-image: url('../img/banners/press-banner.jpg');
 }
 
 .press-container {

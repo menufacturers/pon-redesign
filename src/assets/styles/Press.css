@@ -41,5 +41,26 @@
   }
   .utube {
       list-style-type: none;
+      display:inline-block;
   }
-  
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .press-container {
+        margin: 60px 100px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .press-container {
+        margin: 80px 150px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .press-container {
+        margin: 100px 300px;
+        padding-left: 20px;
+    }
+}

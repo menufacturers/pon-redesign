@@ -3,6 +3,7 @@
     background-image: url('../img/banners/about-banner.jpeg');
 }
 
+/* Overview */
 .overview-text {
     position: relative;
 }
@@ -26,6 +27,7 @@
     padding: 25px 24px;
 }
 
+/* Event Logistics */
 #faq {
     background-image: url('../img/restaurants/food/othellowok-2.jpg');
     background-size: cover;
@@ -111,38 +113,6 @@
         margin: 100px 300px;
         padding: 60px;
     }
-}
-
-
-#about-quote1 h3,
-#about-quote2 h3 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 35px;
-}
-
-/*Quotes from stakeholders */
-#about-quote1 {
-    background-color: #D2922A;
-    color: white;
-    /* font-family:'Philosopher'; */
-    size: 20px;
-    /* line-height: 22.4px;
-    font-weight:700; */
-    padding: 35px;
-    /* border-radius: 20px; */
-    margin: 20px 0px;
-}
-
-#about-quote2 {
-    background-color: #00A5B5;
-    color: white;
-    /* font-family:'Philosopher'; */
-    size: 20px;
-    /* line-height: 22.4px;
-    font-weight:700; */
-    padding: 35px;
-    /* border-radius: 20px; */
-    margin: 20px 0px;
 }
 
 /* Sponsors Logo */

@@ -6,7 +6,6 @@ import asari from "../assets/img/vendors/asari.png"
 import emeraldvendor from "../assets/img/vendors/emerald-city-vendors.jpg";
 import huongvendor from "../assets/img/vendors/huong-duong-vendors.jpg";
 import outsidervendor from "../assets/img/vendors/outsider-pizza-vendors.jpg";
-
 import SED from "../assets/img/sponsors/SED.png";
 import amazon from "../assets/img/sponsors/amazon.png"
 import mlkba from "../assets/img/sponsors/mlkba.png"
@@ -22,7 +21,6 @@ export default function About() {
                     <p class="page-description">Discover the story behind Plate of Nations.</p>
                 </div>
             </div>
-
             <section id="event-overview">
                 <div class="container overview-container">
                     <div class="row align-items-center">

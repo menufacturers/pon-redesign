@@ -4,8 +4,7 @@
 
 .press-container {
     padding-left: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
     /* Additional right padding within the container */
   }
   

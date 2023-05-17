@@ -31,6 +31,13 @@ const Press = () => {
       </div>
       <div className="press-container">
       <div className="year-group">
+        <h2>Plate of Nations Media 2022</h2>
+          <ul>
+            <li class="utube">{embedYouTubeVideo("_MHqRCM9hdo")}</li>
+            <li class="utube">{embedYouTubeVideo("Yl8Drl9Lsdg")}</li>
+          </ul>
+      </div>
+      <div className="year-group">
         <h2>Plate of Nations Media 2021</h2>
         <ul>
           <li class = "utube">{embedYouTubeVideo("0qfEdifiPhs")}</li>

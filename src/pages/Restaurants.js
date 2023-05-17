@@ -94,6 +94,18 @@ export default function Restaurants() {
                 visitLink="../restaurants"
             />
 
+            <RestaurantCard
+                imgLink={buddhabrud}
+                imgAlt="Banh Mi food"
+                logoImg={banglogo}
+                logoAlt="Bang Bang Kitchen logo"
+                title="Buddha Bruddah"
+                cuisine={"Hawaiian, Thai"}
+                hours="11:00 AM - 8:00 PM"
+                location="Mount Baker"
+                visitLink="../restaurants"
+            />
+
             <ul>
                 {/* <li>
                     <input
@@ -106,38 +118,9 @@ export default function Restaurants() {
 
 
 
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={buddhabrud} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Buddha Bruddah</h2>
-                                <p>Open today: 11:00 AM - 8:00 PM</p>
-                                <p>Located: Mount Baker</p>
-                                <p>Cuisine: Hawaiian, Thai</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4">Visit Restaurants</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={buathai} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Bua 9 Thai</h2>
-                                <p>Open today: 11:00 AM - 8:00 PM</p>
-                                <p>Located: Mount Baker</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4">Visit Restaurant</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+
 
                 <section id="cards">
                     <div class="container">

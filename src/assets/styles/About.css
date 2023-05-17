@@ -146,8 +146,19 @@
 }
 
 /* Sponsors Logo */
+#about-sponsor {
+    background-color: white;
+}
+
 #about-sponsor h2 {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.sponsor-logos {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 #about-sponsor img {

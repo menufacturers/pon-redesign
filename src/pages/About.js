@@ -82,23 +82,9 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
-            {/* <section id="about-quote1">
-                <div class="container">
-                    <h3>"The event is about representing different cultures - and that's what our neighborhood is all about."</h3>
-                    <p>- Drea Mizer, Co-Owner of Buddha Bruddah</p>
-                </div>
-            </section>
-            <section id="about-quote2">
-                <div class="container">
-                    <h3>"Everyone got excited about a good event, because food brings people together"</h3>
-                    <p>- Julie Pham, former MLKBA Board Chair</p>
-                </div>
-            </section> */}
-
             <section id="about-sponsor">
                 <h2 class="text-center">Big Thank You to Our Sponsors!</h2>
-                <div class="container sponsor-logos">
+                <div class="container sponsor-logos text-center">
                     <a href="https://www.seattle.gov/office-of-economic-development">
                         <img src={SED} alt="Seattle Office of Economic Development Logo" />
                     </a>

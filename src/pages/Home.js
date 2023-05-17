@@ -5,7 +5,7 @@ import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
 import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
 import vendors from "../assets/img/vendors/vendors-deco.png";
 import passport from "../assets/img/passport-2023.png";
-import waves from "../assets/img/waves.png";
+import waves from "../assets/img/decorative-elements/beige-waves.png";
 import post1 from "../assets/img/social-posts/post-1.jpg";
 import post2 from "../assets/img/social-posts/post-2.jpeg";
 import post3 from "../assets/img/social-posts/post-3.jpg";
@@ -87,6 +87,17 @@ export default function Home() {
                                 <button type="button" class="btn btn-link red-btn-link">Explore My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
                             </Link>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section id="promo-vid">
+                <div class="container vid-container">
+                    <h2>See What's Cooking for Plate of Nations 2023</h2>
+                    {/* <div class="socials-text">
+                        <img class="waves-deco" src={beigewaves} alt="Decorative waves"></img>
+                    </div> */}
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MevfZLOdIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>

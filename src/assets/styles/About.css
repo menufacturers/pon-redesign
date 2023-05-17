@@ -3,12 +3,6 @@
     background-image: url('../img/banners/about-banner.jpeg');
 }
 
-/* .poster-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-} */
-
 .overview-text {
     position: relative;
 }
@@ -33,67 +27,91 @@
 }
 
 #faq {
-    background-image: url('../img/banners/about-banner.jpeg');
+    background-image: url('../img/restaurants/food/othellowok-2.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 300px;
+    height: auto;
 }
 
 .box {
     background-color: #F2C94C;
-    /* Adjust the background color */
-    padding: 20px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.box h3 {
     text-align: center;
 }
 
-.box h2 {
-    color: #FFFFFF;
-    /* Adjust the text color */
-    font-size: 24px;
-}
-
-.box p {
-    color: #FFFFFF;
-    /* Adjust the text color */
-    font-size: 16px;
-}
-
-#promo-vid {
-    background-color: #F1BC32;
+.box-img-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-
-.vid-container {
-    width: 100%;
-    max-width: 900px;
-    /* Adjust the maximum width to fit your needs */
+.box img {
+    width: 125px;
 }
 
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio (divide the height by the width and multiply by 100) */
+.box ul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    list-style: none;
 }
 
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 15px solid white;
-    box-sizing: border-box;
+.box ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.faq-hyperlink {
+    color: #212529;
+}
+
+.faq-hyperlink:hover {
+    color: white;
+}
+
+.faq-hyperlink {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.faq-hyperlink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .box {
+        margin: 50px;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        margin: 60px 100px;
+        padding: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .box {
+        margin: 80px 150px;
+        padding: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        margin: 100px 300px;
+        padding: 60px;
+    }
+}
 
 
 #about-quote1 h3,
@@ -101,122 +119,6 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
 }
-
-/* 'What is Plate of Nations section */
-
-#about-event {
-    padding: 20px 0px;
-}
-
-/* Image carousel */
-
-.about-slides {
-    text-align: center;
-}
-
-/*'5 Easy Steps Section', navigation buttons, and formatting bullet points as images */
-
-#about-steps {
-    padding: 20px 0px;
-}
-
-ol.steps p {
-    font-size: 18px;
-    /* padding-left: 28px; */
-}
-
-li.step-one,
-li.step-two,
-li.step-three,
-li.step-four,
-li.step-five {
-    padding-top: 20px;
-    font-size: 24px;
-}
-
-.step-three {
-    padding-bottom: 20px;
-}
-
-li.step-five {
-    padding-top: 24px;
-}
-
-.hashtag {
-    color: #B32317;
-}
-
-.steps .btn-outline-secondary {
-    font-size: 24px;
-}
-
-.rest-btn {
-    margin-top: 16px;
-}
-
-.nav-button {
-    padding-bottom: 20px;
-}
-
-li {
-    list-style-type: none;
-}
-
-.about-pon li.bullet-one::before {
-    content: "";
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-size: 25px;
-    background-image: url('../img/icons/globe.png');
-    background-repeat: no-repeat;
-    margin-right: 5px;
-}
-
-.about-pon li.bullet-two::before {
-    content: "";
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-size: 25px;
-    background-image: url('../img/icons/search.png');
-    background-repeat: no-repeat;
-    margin-right: 5px;
-}
-
-.about-pon li.bullet-three::before {
-    content: "";
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-size: 20px;
-    background-image: url('../img/icons/utensil.png');
-    background-repeat: no-repeat;
-    margin-right: 5px;
-}
-
-.about-pon li.bullet-four::before {
-    content: "";
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background-size: 25px;
-    background-image: url('../img/icons/medal.png');
-    background-repeat: no-repeat;
-    margin-right: 1px;
-}
-
-.about-pon li.bullet-five::before {
-    content: "";
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-size: 25px;
-    background-image: url('../img/icons/people.png');
-    background-repeat: no-repeat;
-    margin-right: 7px;
-}
-
 
 /*Quotes from stakeholders */
 #about-quote1 {
@@ -244,6 +146,9 @@ li {
 }
 
 /* Sponsors Logo */
+#about-sponsor h2 {
+    padding: 60px 0;
+}
 
 #about-sponsor img {
     height: 150px;
@@ -253,97 +158,4 @@ li {
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
-}
-
-.about-pon li {
-    margin-top: 10px;
-}
-
-/* image carousel */
-
-.carousel {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-}
-
-.slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-}
-
-.slide>img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    margin: 0px;
-    padding: 0px 0px;
-}
-
-.slide[data-active] {
-    opacity: 1;
-}
-
-.carousel>ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.carousel-button {
-    position: absolute;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-size: 3rem;
-    top: 50%;
-    transform: translate(-50%);
-    color: rgba(255, 255, 255, .5);
-    cursor: pointer;
-    border-radius: .25rem;
-    padding: 0.5rem;
-    background-color: rgba (0, 0, 0, .1);
-}
-
-.carousel-button:hover,
-.carousel-button.focus {
-    color: white;
-    background-color: rgba(0, 0, 0, .2)
-}
-
-.carousel-button:focus {
-    outline: 1px solid black;
-}
-
-.carousel-button.prev {
-    left: 1rem;
-}
-
-.carousel-button.next {
-    right: 1rem;
-}
-
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-.sponsor-logos {
-    text-align: center;
-}
-
-/* Collapsible Timeline of Plate of Nations*/
-
-#about-timeline {
-    list-style: none;
-    padding: 0;
-    position: relative;
-}
-
-#about-timeline .card {
-    background-color: rgba(0, 165, 181, .4);
-    margin: 10px;
 }

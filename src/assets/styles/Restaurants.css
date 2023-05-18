@@ -10,3 +10,11 @@
 .btn-link {
     margin-bottom: 30px;
 }
+
+.mobile-menu-icon {
+    color: black; 
+    fill: black; 
+    justify-content: flex-end;
+    display: flex;
+    font-size: 55px;
+ } 

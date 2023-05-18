@@ -13,6 +13,10 @@ import buathai from "../assets/img/restaurants/food/buathai.png";
 import buddhabrud from "../assets/img/restaurants/food/buddhabrud.png";
 import cafetal from "../assets/img/restaurants/food/cafetal.jpg";
 import SearchBar from "./SearchBar";
+import banhmilogo from "../assets/img/restaurants/restaurant-logos/banhmilogo.png";
+import buddhalogo from "../assets/img/restaurants/restaurant-logos/buddhalogo.png";
+import bualogo from "../assets/img/restaurants/restaurant-logos/bualogo.png";
+import cafetalogo from "../assets/img/restaurants/restaurant-logos/cafetal-logo.png";
 
 export default function Restaurants() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -35,7 +39,16 @@ export default function Restaurants() {
                 </div>
             </div>
             <SearchBar />
-            
+            <a href="/menu">
+            <i class="bi bi-list mobile-menu-icon"></i>
+            </a>
+            <button className="mobile-menu-icon">
+            {searchQuery ? (
+              <i className="fas fa-times"></i>
+            ) : (
+              <i className="fa fas-bars"></i>
+            )}
+          </button>
             <RestaurantCard
                 imgLink={alem}
                 imgAlt="Alem food"
@@ -73,7 +86,7 @@ export default function Restaurants() {
             <RestaurantCard
                 imgLink={banhmi}
                 imgAlt="Banh Mi food"
-                logoImg={banglogo}
+                logoImg={banhmilogo}
                 logoAlt="Bang Bang Kitchen logo"
                 title="Banh Mi Deluxe/Boss Tea"
                 cuisine={"Vietnamese"}
@@ -85,7 +98,7 @@ export default function Restaurants() {
             <RestaurantCard
                 imgLink={buathai}
                 imgAlt="Banh Mi food"
-                logoImg={banglogo}
+                logoImg={bualogo}
                 logoAlt="Bang Bang Kitchen logo"
                 title="Bua 9 Thai"
                 cuisine={"Thai"}
@@ -97,7 +110,7 @@ export default function Restaurants() {
             <RestaurantCard
                 imgLink={buddhabrud}
                 imgAlt="Banh Mi food"
-                logoImg={banglogo}
+                logoImg={buddhalogo}
                 logoAlt="Bang Bang Kitchen logo"
                 title="Buddha Bruddah"
                 cuisine={"Hawaiian, Thai"}
@@ -106,38 +119,18 @@ export default function Restaurants() {
                 visitLink="../restaurants"
             />
 
-            <ul>
-                {/* <li>
-                    <input
-                        type="text"
-                        placeholder="Search..."
-                        value={searchQuery}
-                        onChange={handleSearchInputChange}
-                    />
-                </li> */}
+            <RestaurantCard
+                imgLink={cafetal}
+                imgAlt="Banh Mi food"
+                logoImg={cafetalogo}
+                logoAlt="Bang Bang Kitchen logo"
+                title="Cafetal Quilombo"
+                cuisine={"Mexican"}
+                hours="10:00 AM - 7:00 PM"
+                location="Beacon Hill"
+                visitLink="../restaurants"
+            />
 
-
-
-
-
-
-
-                <section id="cards">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 passport-img-container">
-                                <img src={cafetal} alt="Plate of Nations Passport" class="img-fluid passport-img" />
-                            </div>
-                            <div class="col-lg-6">
-                                <h2>Cafetal Quilombo</h2>
-                                <p>Open today: 10:00 AM - 7:00 PM</p>
-                                <p>Located: Beacon Hill</p>
-                                <Link role="button" class="btn btn-outline-primary btn-lg px-4">Visit Restaurant</Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </ul>
         </div>
     );
 }

@@ -4,6 +4,7 @@
 
 .press-container {
     padding-left: 20px;
+    padding-right:20px;
     margin: 50px auto;
     /* Additional right padding within the container */
   }
@@ -32,6 +33,7 @@
       list-style-type: disc;
       color: black;
       font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
   }
   iframe {
         width: 400px;

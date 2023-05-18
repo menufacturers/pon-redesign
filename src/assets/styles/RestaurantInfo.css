@@ -1,0 +1,15 @@
+
+.owner-container {
+    background-color: #F2C94C;
+}
+
+.menu {
+    background-color: #B4352E;
+    margin: 10px 0px;
+}
+
+.btn-outline-secondary {
+    color: #F2C94C;
+    outline-color: #F2C94C;
+    outline-width: 5px;
+}

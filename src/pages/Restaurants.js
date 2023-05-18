@@ -2,6 +2,7 @@ import "../assets/styles/Restaurants.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import RestaurantCard from "../components/RestaurantCard";
+import RestaurantInfo from "../components/RestaurantInfo";
 import alem from "../assets/img/restaurants/food/alem.png";
 import alemlogo from "../assets/img/restaurants/restaurant-logos/alem-logo.png";
 import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
@@ -12,6 +13,7 @@ import banhmi from "../assets/img/restaurants/food/banhmi.png";
 import buathai from "../assets/img/restaurants/food/buathai.png";
 import buddhabrud from "../assets/img/restaurants/food/buddhabrud.png";
 import cafetal from "../assets/img/restaurants/food/cafetal.jpg";
+import farah from "../assets/img/vendors/farah-ismail.png"
 import SearchBar from "./SearchBar";
 import banhmilogo from "../assets/img/restaurants/restaurant-logos/banhmilogo.png";
 import buddhalogo from "../assets/img/restaurants/restaurant-logos/buddhalogo.png";
@@ -130,7 +132,36 @@ export default function Restaurants() {
                 location="Beacon Hill"
                 visitLink="../restaurants"
             />
+            
+            <RestaurantInfo
+                logoImg={bananaslogo}
+                logoAlt=""
+                menuOneImg={bananasgrill}
+                menuOneAlt="Picture of sample platter option 1 at Bananas Grill"
+                menuOnePrice="25"
+                menuOneDesc="Falafel, Hummus & Pita, Dolmas, Vegetarian Sambusas, Rice"
+                menuTwoImg={alemlogo}
+                menuTwoAlt="Picture of sample platter option 1 at Bananas Grill"
+                menuTwoPrice="35"
+                menuTwoDesc="Dolmas, Falafel, Hummus & Pita, Beef & Lamb Gyro Meat, Grilled Salt and Pepper Lemon Fish, Chicken Shwarma or Chicken Kabob, Rice and Salad"
 
+                restaurantName="Bananas Grill"
+                desc="description of restaurant here"
+                yearJoined="2011"
+                streetAddress="4556 Martin Luther King Jr Way South"
+                city="Seattle"
+                zipcode="98108"
+                mapsUrl="enter url for maps to navigate to"
+                phone="111-111-111"
+                email="example@gmail.com"
+
+                ownerImg={farah}
+                ownerAlt="Profile Picture of Farah Isamil"
+                ownerName="Farah Ismail"
+                story="After working hard, planning and saving for nearly 15 years, Farah Ismail finally opened Bananas Grill restaurant in the Rainier Valley. 'I wanted to fill a need in the community for Halal fast food,' he said. Farah and his family have always had a passion and love for cooking and eating. They love the art of cooking and it brings them joy to see others enjoy their passion. Bananas Grill has high-quality and fresh food, passion, and warm and friendly service.
+
+                The restaurant has a modern, vibrant and comfortable atmosphere that is family-friendly. The menu offers many entrees that include a variety of halal meat options, mouthwatering gyros, and shawarmas, as well as halal hamburgers and cheeseburgers. 'It's a mixture of American, Mediterranean and Halal reflecting my family heritage,' Farah said. Specialty drinks include Somali spiced chai-tea and fruit smoothies, among others. They offer various dessert options including baklava."
+                />
         </div>
     );
 }

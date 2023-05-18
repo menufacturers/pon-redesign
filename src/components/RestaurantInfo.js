@@ -7,15 +7,12 @@ export default function RestaurantInfo(props) {
 
     return (
     <div class="restaurant-info">
-    {/* <div class="restaurant-detail-banner">
-    </div> */}
     <div class="page-banner restaurant-info-banner">
         <div><h1>{props.restaurantName}</h1></div>
         <div>
             <p class="page-description"></p>
         </div>
     </div>
-    <img src={props.logoImg} class="img-fluid card-img" alt={props.logoAlt} />
     <div class="menu">
         <div class="box">
         <h2>Special Menus to Share </h2>
@@ -41,9 +38,9 @@ export default function RestaurantInfo(props) {
     </div>
     <div class="container vendor-info-container">
         <div class="row">
-            <h3>{props.restaurantName}</h3>
+        <h3>About {props.restaurantName}</h3>
             <div class="col-md-4 vendor-description">
-                <h4>About</h4>
+                <img src={props.logoImg} class="img-fluid logo-img" alt={props.logoAlt} />
                 <p>{props.desc}</p>
                 <h4>Proud Participant Since</h4>
                 <p>{props.yearJoined}</p>
@@ -52,14 +49,15 @@ export default function RestaurantInfo(props) {
                 <h4>Address</h4>
                 <p>{props.streetAddress}</p>
                 <p>{props.city}, WA {props.zipcode}, United States</p>
-                <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to={props.mapsUrl}> Open in Google Maps</Link>
+                <a href={props.mapsUrl} role="button" class="btn btn-outline-secondary btn-lg px-4"> Open in Google Maps</a>
                 <h4>Hours</h4>
-                <p>Monday-Friday: {props.weekdayHours}</p>
-                <p>Saturday: {props.satHours}</p>
-                <p>Sunday: {props.sunHours}</p>
+                <p>Mon - Fri: {props.weekdayHours}</p>
+                <p>Sat: {props.satHours}</p>
+                <p>Sun: {props.sunHours}</p>
                 <h4>Contact</h4>
-                <p>Phone: <a href="tel:{props.phone}"></a>{props.phone}</p>
-                <p>Email: <a href="{props.email}"></a>{props.email}</p>
+                <p>Phone: <a href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
+                <p>Email: <a href={props.emailHtml} alt="restaurant's email"></a>{props.email}</p>
+                <p><a href={props.website}>Website</a></p>
             </div>
         </div>
     </div>
@@ -70,7 +68,7 @@ export default function RestaurantInfo(props) {
                 <img class="container-fluid"src={props.ownerImg} alt={props.ownerAlt} />
             </div>
             <div class="col-md-8 owner-details">
-                <h4>{props.restaurantName}</h4>
+                <h5>{props.restaurantName}</h5>
                 <h3>{props.ownerName}</h3>
                 <p>{props.story}</p>
             </div>

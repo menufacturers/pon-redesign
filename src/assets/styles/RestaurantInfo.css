@@ -1,15 +1,78 @@
+/* special menus section */
+.menu {
+    background-color: #B4352E;
+    padding: 10px 0px;
+}
+
+.menu-one img, .menu-two img {
+    width:100%;
+    height:auto;
+    object-fit: contain;
+}
+
+
+/* vendor about section */
+
+.vendor-info-container {
+    background-image: url(../img/restaurants/outside/bananasgrill.png);
+    color:white;
+    padding: 30px;
+    margin: auto 0px;
+}
+
+.vendor-info-container h4 {
+    margin-top:30px; 
+}
+
+.btn {
+    color: #F2C94C;
+}
+
+/* vendor spotlight section */
 
 .owner-container {
     background-color: #F2C94C;
+    padding: 30px;
+    margin: auto 0px;
 }
 
-.menu {
-    background-color: #B4352E;
-    margin: 10px 0px;
+.owner-container img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
 }
 
-.btn-outline-secondary {
-    color: #F2C94C;
-    outline-color: #F2C94C;
-    outline-width: 5px;
+/* @media (min-width: 768px) and (max-width: 991px) {
+    .menu-one img, .menu-two img {
+        width: 100%;
+        height:auto;
+    }
+    .menu-one, .menu-two {
+        display: inline-block;
+        text-align: center;
+    }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu-one img, .menu-two img {
+        width: 100%;
+        max-height: auto;
+        text-align: center;
+    }
+    .menu-one, .menu-two {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-one img, .menu-two img {
+        width: 100%;
+        max-height: auto;
+        text-align: center;
+    }
+    .menu-one, .menu-two {
+        display: inline-block;
+        text-align: center;
+    }
+} */

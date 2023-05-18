@@ -21,14 +21,14 @@ export default function RestaurantInfo(props) {
                 <img src={waves} alt="Decorative waves"></img>
             </div>
             <div class="menu-one">
-                <img src={props.menuOneImg} alt={props.menuOneAlt} />
+                <img src={props.menuOneImg} class="img-fluid" alt={props.menuOneAlt} />
                 <h4>Special Set One: ${props.menuOnePrice}</h4>
                 <ul>
                     <li>{props.menuOneDesc}</li>
                 </ul>
             </div>
             <div class="menu-two">
-                <img src={props.menuTwoImg} alt={props.menuTwoAlt} />
+                <img src={props.menuTwoImg} class="img-fluid" alt={props.menuTwoAlt} />
                 <h4>Special Set Two: ${props.menuTwoPrice}</h4>
                 <ul>
                     <li>{props.menuTwoDesc}</li>
@@ -55,8 +55,8 @@ export default function RestaurantInfo(props) {
                 <p>Sat: {props.satHours}</p>
                 <p>Sun: {props.sunHours}</p>
                 <h4>Contact</h4>
-                <p>Phone: <a href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
-                <p>Email: <a href={props.emailHtml} alt="restaurant's email"></a>{props.email}</p>
+                <p>Phone: <a class= "contact-link" href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
+                <p>Email: <a class="contact-link" href={props.emailHtml} alt="restaurant's email"></a>{props.email}</p>
                 <p><a href={props.website}>Website</a></p>
             </div>
         </div>
@@ -71,6 +71,8 @@ export default function RestaurantInfo(props) {
                 <h5>{props.restaurantName}</h5>
                 <h3>{props.ownerName}</h3>
                 <p>{props.story}</p>
+                <p>{props.story2}</p>
+                <p>{props.story3}</p>
             </div>
         </div>
     </div>

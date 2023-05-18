@@ -45,6 +45,9 @@
       list-style-type: none;
       display:inline-block;
   }
+  .press-link:hover {
+    color: #F2C94C;
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
     .press-container {

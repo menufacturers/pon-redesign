@@ -1,0 +1,97 @@
+h1,
+.lead {
+    color: white;
+}
+
+.hero-container {
+    padding: 50px 20px;
+}
+
+.passport-banner {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-image: url('../img/banners/passport-banner.jpg');
+}
+
+.intro-text {
+    font-size: 64px;
+}
+
+.lead {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#what-is-passport {
+    font-size: 1.2em;
+    padding: 64px;
+}
+
+#passport-explanation {
+    background-color: #03264D;
+    color: white;
+    font-size: 1.2em;
+    padding: 64px;
+}
+
+.explanation-subpoint {
+    color: white;
+    font-size: .8em;
+    padding-left: 20px;
+}
+
+#giveaways {
+    font-size: 1.2em;
+    padding: 64px;
+}
+
+#passport-portal {
+    background-color: #f2c94c;
+    font-size: 1.2em;
+    padding: 64px;
+}
+
+#passport-info {
+    color: white;
+    font-size: 1em;
+}
+
+#portal-visualizer {
+    background-image: url('../img/banners/portal-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card-component {
+    color: white;
+    background-color: #03264d;
+    margin: 50px;
+    padding: 30px;
+}
+
+.user-input-component {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .hero-banner {
+        height: 100vh;
+    }
+
+    .btn-block {
+        width: 100%;
+    }
+}

@@ -7,6 +7,7 @@ import Restaurants from './pages/Restaurants';
 import Passport from './pages/Passport';
 import Press from './pages/Press';
 import About from './pages/About';
+import Portal from './pages/Portal';
 // import Alem from './pages/subpages/Alem';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="passport" element={<Passport />} />
         <Route path="press" element={<Press />} />
         <Route path="about" element={<About />} />
+        <Route path="digital-passport" element={<Portal />} />
       </Routes>
       <Footer />
     </div>

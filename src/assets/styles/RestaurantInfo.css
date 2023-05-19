@@ -33,6 +33,11 @@
 
 .contact-link {
     color: #F2C94C;
+    text-decoration: none
+}
+
+.contact-link:hover {
+    color:orange; 
 }
 
 /* vendor spotlight section */
@@ -44,33 +49,22 @@
 }
 
 .owner-container img {
-    padding: 0px;
+    padding: 30px;
 }
 
 /* @media (min-width: 768px) and (max-width: 991px) {
-    .menu-one img, .menu-two img {
-        width: 100%;
-        height:auto;
-    }
-    .menu-one, .menu-two {
-        display: inline-block;
-        text-align: center;
-    }
-}
+    
+} */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .menu-one img, .menu-two img {
-        width: 100%;
-        max-height: auto;
-        text-align: center;
+
+    .owner-container img {
+        padding: 80px;
     }
-    .menu-one, .menu-two {
-        display: inline-block;
-        text-align: center;
-    }
+
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .menu-one img, .menu-two img {
         width: 100%;
         max-height: auto;

@@ -36,16 +36,16 @@ export default function RestaurantInfo(props) {
             </div>
         </div>
     </div>
-    <div class="container vendor-info-container">
+    <div class="container-fluid vendor-info-container">
         <div class="row">
         <h3>About {props.restaurantName}</h3>
-            <div class="col-md-4 vendor-description">
+            <div class="col-lg-6 vendor-description">
                 <img src={props.logoImg} class="img-fluid logo-img" alt={props.logoAlt} />
                 <p>{props.desc}</p>
                 <h4>Proud Participant Since</h4>
                 <p>{props.yearJoined}</p>
             </div>
-            <div class="col-md-8 vendor-logistics">
+            <div class="col-lg-6 vendor-logistics">
                 <h4>Address</h4>
                 <p>{props.streetAddress}</p>
                 <p>{props.city}, WA {props.zipcode}, United States</p>
@@ -55,19 +55,19 @@ export default function RestaurantInfo(props) {
                 <p>Sat: {props.satHours}</p>
                 <p>Sun: {props.sunHours}</p>
                 <h4>Contact</h4>
-                <p>Phone: <a class= "contact-link" href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
+                <p>Phone: <a class="contact-link" href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
                 <p>Email: <a class="contact-link" href={props.emailHtml} alt="restaurant's email"></a>{props.email}</p>
-                <p><a href={props.website}>Website</a></p>
+                <p><a class="contact-link" href={props.website}>Website</a></p>
             </div>
         </div>
     </div>
-    <div class="container owner-container">
+    <div class="container-fluid owner-container">
         <div class="row">
             <h2>Meet the Owner</h2>
-            <div class="col-md-4 owner-img">
+            <div class="col-lg-6 owner-img">
                 <img class="container-fluid"src={props.ownerImg} alt={props.ownerAlt} />
             </div>
-            <div class="col-md-8 owner-details">
+            <div class="col-lg-6 owner-details">
                 <h5>{props.restaurantName}</h5>
                 <h3>{props.ownerName}</h3>
                 <p>{props.story}</p>

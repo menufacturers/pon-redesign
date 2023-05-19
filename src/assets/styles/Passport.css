@@ -1,62 +1,123 @@
-h1,
-.lead {
-    color: white;
-}
-
-.hero-container {
-    padding: 50px 20px;
-}
-
 .passport-banner {
+    background-image: url('../img/restaurants/food/habesha.jpg');
+}
+
+#passport-overview .overview-text {
     position: relative;
-    padding-top: 100px;
+}
+
+#passport-overview .overview-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 100vw;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-    background-position: center;
-    background-repeat: none;
-    background-attachment: scroll;
-    background-image: url('../img/banners/passport-banner.jpg');
 }
 
-.intro-text {
-    font-size: 64px;
+#passport-overview .overview-img {
+    width: 100%;
+    height: auto;
 }
 
-.lead {
-    font-size: 24px;
-    font-weight: 500;
+#passport-overview .overview-container {
+    margin: 50px auto;
 }
 
-#what-is-passport {
-    font-size: 1.2em;
-    padding: 64px;
+#passport-overview .overview-text {
+    padding: 25px 24px;
 }
 
-#passport-explanation {
-    background-color: #bd2429;
+/* How It Works */
+.card-component {
     color: white;
-    font-size: 1.2em;
+    background-color: #03264d;
+    max-width: 70ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+ 
+#passport-explanation {
+    background-image: url('../img/restaurants/food/emeraldcity.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
     padding: 64px;
+}
+
+.exp-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.exp-img-container img {
+    width: 125px;
 }
 
 .explanation-subpoint {
-    font-size: .8em;
-    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
-#giveaways {
-    font-size: 1.2em;
-    padding: 64px;
-}
-
+/* Digiitize Portal */
 #passport-portal {
-    background-color: #f2c94c;
+    background-color: #E7732B;
     font-size: 1.2em;
-    padding: 64px;
+    padding: 40px;
+    text-align: center;
+}
+
+.portal-container {
+    display: flex;
+    align-items: center;
+}
+
+.align-items-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.peas-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-items-stretch img {
+    max-height: 325px;
+}
+
+.portal-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+ 
+.peas-container, .portal-text {
+    display: flex;
+    align-items: center; 
+}
+
+.portal-text h2, .portal-text button {
+    display: inline-block;
+}
+
+.portal-text button {
+    margin-bottom: 10px;
+}
+
+.portal-text p {
+    text-align: left;
+}
+
+.portal-text::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    background-color: #F7F4E3;
 }
 
 #passport-info {
@@ -91,6 +152,11 @@ h1,
 
 .user-input-component {
     text-align: center;
+}
+
+/* Giveaways */
+.overview-img {
+    border: 14px solid white;
 }
 
 @media (min-width: 768px) {

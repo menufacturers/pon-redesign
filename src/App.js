@@ -9,6 +9,7 @@ import Press from './pages/Press';
 import About from './pages/About';
 import Portal from './pages/Portal';
 import Alem from './pages/subpages/Alem';
+import BananasGrill from './pages/subpages/BananasGrill';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="restaurants" element={<Restaurants />} />
         <Route path="alem" element={<Alem />} />
+        <Route path="bananasgrill" element={<BananasGrill />} />
         <Route path="digital-passport" element={<Portal />} />
         <Route path="passport" element={<Passport />} />
         <Route path="press" element={<Press />} />

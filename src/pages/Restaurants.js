@@ -62,7 +62,7 @@ export default function Restaurants() {
                 cuisine={"Eritrian, Ethiopian"}
                 hours="10:00 AM - 12:00 AM"
                 location="Columbia City"
-                visitLink="../restaurants"
+                visitLink="../alem"
             />
             <RestaurantCard
                 imgLink={bananasgrill}
@@ -73,7 +73,7 @@ export default function Restaurants() {
                 cuisine={"Halal, Mediterranean, Somali"}
                 hours="11:00 AM - 9:00 PM"
                 location="Columbia City"
-                visitLink="../restaurants"
+                visitLink="../bananasgrill"
             />
             <RestaurantCard
                 imgLink={bangkitchen}

@@ -152,6 +152,10 @@ h1,
     margin-bottom: 50px;
 }
 
+.home-btn-link {
+    padding-left: 0;
+}
+
 .spotlight-img-container,
 .passport-img-container {
     display: flex;

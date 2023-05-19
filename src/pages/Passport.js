@@ -1,8 +1,9 @@
 import "../assets/styles/Passport.css";
 import { Link } from "react-router-dom";
-import passport from "../assets/img/passport-2023.png"
+import passport from "../assets/img/passport-2023.png";
 import waves from "../assets/img/decorative-elements/white-yellow-waves.png";
-import peas from "../assets/img/decorative-elements/peas.png"
+import peas from "../assets/img/decorative-elements/peas-orange.png";
+import grandprize from "../assets/img/grand-prize.jpeg";
 
 export default function Passport() {
     return (
@@ -22,7 +23,6 @@ export default function Passport() {
                             <h2>What is the PON Passport?</h2>
                             <p>To commenorate your trip around the world, pick up one of our "Passport" tracker cards!</p>
                             <p>Each restaurant has a unique stamp that you can collect by ordering a meal. What better way to remember your trip around the world than with a <b>special souvenier</b> to record your journey?</p>
-                            <p>Collect enough and maybe you'll find some treasures along the way!</p>
                         </div>
                         <div class="col-lg-6 overview-img-container">
                             <img src={passport} alt="Plate of Nations 2023 promotional poster" class="img-fluid overview-img" />
@@ -32,7 +32,7 @@ export default function Passport() {
             </section>
             <section id="passport-explanation">
                 <div class="card-component" style={{ backgroundColor: '#F2C94C', color: 'black' }}>
-                    <h2 style={{ textAlign: 'center' }}>How It Works</h2>
+                    <h3 style={{ textAlign: 'center' }}>How It Works</h3>
                     <div class="exp-img-container">
                         <img src={waves} alt="Decorative waves"></img>
                     </div>
@@ -68,15 +68,20 @@ export default function Passport() {
             </section>
 
             <section id="giveaways">
-                <div class="container">
-                    <div class="col-lg">
+                <div class="container overview-container">
+                    <div class="row align-items-center">
+                    <div class="col-lg-6 overview-img-container">
+                            <img src={grandprize} alt="Plate of Nations 2023 grand prize" class="img-fluid overview-img" />
+                        </div>
+                        <div class="col-lg-6 overview-text">
                         <h2>Giveaways</h2>
-                        <p>Throughout the event, we’ll be running daily contests through social media. Enter using <span style={{ color: '#bd242a' }}><b>#PlateofNations2023</b></span> for a chance to win:</p>
+                        <p>Throughout the event, we’ll be running daily contests through social media. Enter using <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer">#PlateOfNations2023</a> for a chance to win:</p>
                         <span style={{ textIndent: '20px' }}>
                             <li>Free meals from participating PON restaurants.</li>
                             <li>Gift cards to your favorite stores.</li>
                             <li>And limited Plate of Nations merchandise.</li><br></br></span>
                         <p>Also, each stamp collected on your Passport will enter your for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
+                        </div>
                     </div>
                 </div>
             </section>

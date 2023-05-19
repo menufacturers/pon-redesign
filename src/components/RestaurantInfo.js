@@ -52,8 +52,8 @@ export default function RestaurantInfo(props) {
                         <p>Sat: {props.satHours}</p>
                         <p>Sun: {props.sunHours}</p>
                         <h4>Contact</h4>
-                        <p>Phone: <a class="contact-link" href={props.phoneHtml} alt="restaurant's phone number"></a>{props.phone}</p>
-                        <p>Email: <a class="contact-link" href={props.emailHtml} alt="restaurant's email"></a>{props.email}</p>
+                        <p>Phone: <a class="contact-link" href={props.phoneHtml} alt="restaurant's phone number">{props.phone}</a></p>
+                        <p>Email: <a class="contact-link" href={props.emailHtml} alt="restaurant's email">{props.email}</a></p>
                         <p><a class="contact-link" href={props.website}>Website</a></p>
                     </div>
                 </div>

@@ -27,9 +27,9 @@ export default function Alem() {
                 zipcode="98108"
                 mapsUrl={"https://www.google.com/maps/place/Bananas+Grill/@47.5620445,-122.2937675,17z/data=!3m2!4b1!5s0x54906a736077c66f:0x72e717a135093847!4m6!3m5!1s0x54906a737dae1fd7:0xb231d5bc31820ced!8m2!3d47.5620445!4d-122.2937675!16s%2Fg%2F1tj45m14"}
                 phone="(206)-420-4839"
-                phoneHtml={"tel:(206)-420-4839"}
+                phoneHtml="tel:206-420-4839"
                 email="bananasgrillseattle@gmail.com"
-                emailHtml={"mailto:bananasgrillseattle@gmail.com"}
+                emailHtml="mailto:bananasgrillseattle@gmail.com"
                 website={"https://bananagrillseattle.com/"}
                 weekdayHours="11:00am - 7:30pm"
                 satHours="11:00am - 7:30pm"

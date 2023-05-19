@@ -1,5 +1,5 @@
 .passport-banner {
-    background-image: url('../img/restaurants/food/habesha.jpg');
+    background-image: url('../img/banners/passport-banner.jpg');
 }
 
 #passport-overview .overview-text {
@@ -145,7 +145,7 @@
 }
 
 .grand-prize-img {
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     padding: 32px;
 }

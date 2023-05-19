@@ -54,7 +54,7 @@ export default function RestaurantInfo(props) {
                         <h4>Contact</h4>
                         <p>Phone: <a class="contact-link" href={props.phoneHtml} alt="restaurant's phone number">{props.phone}</a></p>
                         <p>Email: <a class="contact-link" href={props.emailHtml} alt="restaurant's email">{props.email}</a></p>
-                        <p><a class="contact-link" href={props.website}>Website</a></p>
+                        <p><a class="contact-link" href={props.website} target="_blank" rel="noreferrer">Website</a></p>
                     </div>
                 </div>
             </div>

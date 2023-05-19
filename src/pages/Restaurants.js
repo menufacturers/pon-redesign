@@ -84,7 +84,6 @@ export default function Restaurants() {
                 location="Othello"
                 visitLink="../restaurants"
             />
-
             <RestaurantCard
                 imgLink={banhmi}
                 imgAlt="Banh Mi food"
@@ -96,7 +95,6 @@ export default function Restaurants() {
                 location="MLK"
                 visitLink="../restaurants"
             />
-
             <RestaurantCard
                 imgLink={buathai}
                 imgAlt="Banh Mi food"
@@ -108,7 +106,6 @@ export default function Restaurants() {
                 location="Columbia City"
                 visitLink="../restaurants"
             />
-
             <RestaurantCard
                 imgLink={buddhabrud}
                 imgAlt="Banh Mi food"
@@ -120,7 +117,6 @@ export default function Restaurants() {
                 location="Mount Baker"
                 visitLink="../restaurants"
             />
-
             <RestaurantCard
                 imgLink={cafetal}
                 imgAlt="Banh Mi food"

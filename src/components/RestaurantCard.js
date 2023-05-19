@@ -5,7 +5,8 @@ export default function RestaurantCard(props) {
     // const cuisines = props.cuisine.split(", ");
 
     return (
-        <div class="card mb-3 restaurant-card" style={{ maxWidth: "840px" }}>
+        //     <div class="card mb-3 restaurant-card" style={{ maxWidth: "840px" }}>
+        <div class="card mb-3 restaurant-card" >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src={props.imgLink} class="img-fluid card-img" alt={props.imgAlt} />

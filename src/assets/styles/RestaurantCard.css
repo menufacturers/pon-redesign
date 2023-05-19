@@ -3,6 +3,13 @@
     border-width: 15px;
     border-color: white;
     background-color: white;
+    max-width: "840px";
+}
+
+@media (min-width: 768px) {
+    .restaurant-card {
+        max-width: 100%;
+    }
 }
 
 .card-img {

@@ -18,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="restaurants" element={<Restaurants />} />
         {/* <Route path="restaurants/alem" element={<Alem />} /> */}
+        <Route path="digital-passport" element={<Portal />} />
         <Route path="passport" element={<Passport />} />
         <Route path="press" element={<Press />} />
         <Route path="about" element={<About />} />

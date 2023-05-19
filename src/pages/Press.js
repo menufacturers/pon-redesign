@@ -24,7 +24,7 @@ const Press = () => {
           <h1>Media</h1>
           <div>
             <p className="page-description">
-              Get the scoop on Plate of Nations media mentions and press outreach initiatives right here!
+              Get the scoop on Plate of Nations media mentions and press outreach initiatives.
             </p>
           </div>
         </div>

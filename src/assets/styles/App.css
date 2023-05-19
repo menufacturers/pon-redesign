@@ -54,6 +54,7 @@ li {
   font-size: 2rem;
   text-align: center;
   padding-top: 100px;
+  padding-bottom: 40px;
   position: relative;
   z-index: 1;
 }
@@ -72,7 +73,6 @@ li {
 .page-description {
   margin: 0 1.5rem;
 }
-
 
 .btn-primary,
 .btn-outline-secondary {

@@ -63,7 +63,8 @@ h1,
     padding: 8px 20px;
     color: #f7f4e3;
     background-color: #03264d;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
     border: 2px solid #f7f4e3;
     border-radius: 10px;
     transition-duration: 0.4s;

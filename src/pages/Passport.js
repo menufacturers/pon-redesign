@@ -69,25 +69,6 @@ export default function Passport() {
                 </div>
             </section>
             <section id="giveaways">
-                {/* <div class="container overview-container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 overview-img-container">
-                            <img src={grand_prize} alt="Plate of Nations Grand Prize" class="grand-prize-img img-fluid" />
-                        </div>
-                        <div class="col-lg-6 overview-text">
-                            <div class="dashes-container">
-                                <img src={dashes} alt="Decorative dashes" class="dashes"></img>
-                            </div>
-                            <h2>Giveaways</h2>
-                            <p>Throughout the event, we’ll be running daily contests through social media. Enter using <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer">#PlateOfNations2023</a> for a chance to win:</p>
-                            <span style={{ textIndent: '20px' }}>
-                                <li><i class="fa-solid fa-fire"></i> Free meals from participating PON restaurants</li>
-                                <li><i class="fa-solid fa-fire"></i> Gift cards to your favorite stores</li>
-                                <li><i class="fa-solid fa-fire"></i> And limited Plate of Nations merchandise</li><br></br></span>
-                            <p>Each stamp collected on your Passport will also enter you for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
-                        </div>
-                    </div>
-                </div> */}
                 <div class="container overview-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 overview-img-container">

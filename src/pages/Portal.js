@@ -2,22 +2,22 @@ import "../assets/styles/Portal.css";
 import sample_passport from "../assets/img/banners/sample-passport.png"
 import { Link } from "react-router-dom";
 
-
-
 export default function Portal() {
     return (
         <div>
-            <div class="passport-banner">
-                <div class="container hero-container">
-                    <h1 class="intro-text">Your Digital PON Passport</h1>
-                    <p class="lead">Link your phone number and unique stamp IDs found at PON restaurants to easily access your Passport anytime and anywhere.</p>
+            <div class="page-banner passport-banner">
+                <div>
+                    <h1>Your Digital PON Passport</h1>
+                </div>
+                <div>
+                    <p class="page-description">Link your phone number and unique stamp IDs found at PON restaurants to easily access your Passport anytime and anywhere.</p>
                 </div>
             </div>
             
             <section class="portal-visualizer">
                 <div class="card-component">
                     <h3 style={{textAlign:'center'}}>Passport Viewer</h3>
-                    <p>Want to check if you've added all your stamps? Take a look at your collection by using our Digital Passport viewer.</p>
+                    <p>Want to check if you've added all your stamps? Take a look at your collection through our Digital Passport viewer.</p>
                     
                     <div class="user-input-component">
                         <form action="">

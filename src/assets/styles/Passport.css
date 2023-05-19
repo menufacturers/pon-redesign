@@ -83,6 +83,12 @@ h1,
     padding: 30px;
 }
 
+.grand-prize-img {
+    max-width: 60%;
+    margin: auto;
+    padding: 32px;
+}
+
 .user-input-component {
     text-align: center;
 }

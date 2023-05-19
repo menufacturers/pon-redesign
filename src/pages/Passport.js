@@ -1,4 +1,5 @@
 import "../assets/styles/Passport.css";
+import grand_prize from "../assets/img/social-posts/grand-prize.jpg"
 import { Link } from "react-router-dom";
 
 // was already commented -> import passport from "../assets/img/passport-2023.png";
@@ -60,21 +61,15 @@ export default function Passport() {
                             <li>Gift cards to your favorite stores.</li>
                             <li>And limited Plate of Nations merchandise.</li><br></br></span>
                         <p>Also, each stamp collected on your Passport will enter your for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
-                        <button type="button" class="btn btn-link red-btn-link">Learn More<i class="fa-solid fa-arrow-right-long"></i></button>
+                        
+                        <div class="row align-items-center">
+                            <img src={grand_prize} alt="Plate of Nations Grand Prize" class="grand-prize-img img-fluid" />
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
     );
-    
-    function toggleText() {
-        var x = document.getElementById("text-test");
-        if (x.style.display === "none") {
-            x.style.display = "inline";
-        } else {
-            x.style.display = "none";
-        }
-    }
 
 }
 

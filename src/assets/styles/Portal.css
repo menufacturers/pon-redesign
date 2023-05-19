@@ -7,7 +7,7 @@ h1,
     padding: 50px 20px;
 }
 
-.hero-banner {
+.passport-banner {
     position: relative;
     padding-top: 100px;
     display: flex;
@@ -19,6 +19,7 @@ h1,
     background-position: center;
     background-repeat: none;
     background-attachment: scroll;
+    background-image: url('../img/banners/portal-banner.jpg');
 }
 
 .intro-text {
@@ -28,4 +29,71 @@ h1,
 .lead {
     font-size: 24px;
     font-weight: 500;
+}
+
+.portal-visualizer {
+    background-color: #f7f4e3;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.card-component {
+    color: white;
+    background-color: #03264d;
+    border-radius: 12px;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 48px;
+}
+
+.card-component p {
+    text-align: justify;
+}
+
+.check-stamp-button {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding: 8px 20px;
+    color: #f7f4e3;
+    background-color: #03264d;
+    font-size: 20px;
+    border: 2px solid #f7f4e3;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.check-stamp-button:hover {
+    background-color: #f7f4e3;
+    color: #03264d;
+    border: 2px solid #03264d;
+}
+
+.phone-input {
+    margin: 16px;
+}
+
+.user-input-component {
+    text-align: center;
+}
+
+#sample-passport-viz {
+    display: none;
+    margin-left: 40px;
+}
+
+@media (min-width: 768px) {
+    .hero-banner {
+        height: 100vh;
+    }
+
+    .btn-block {
+        width: 100%;
+    }
 }

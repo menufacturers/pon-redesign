@@ -1,5 +1,5 @@
 .passport-banner {
-    background-image: url('../img/banners/passport-banner.jpg');
+    background-image: url('../img/restaurants/food/habesha.jpg');
 }
 
 #passport-overview .overview-text {
@@ -49,15 +49,66 @@
     padding-left: 50px;
 }
 
-#giveaways {
-    font-size: 1.2em;
-    padding: 64px;
-}
-
 #passport-portal {
     background-color: #F1BC32;
     font-size: 1.2em;
-    padding: 64px;
+    padding: 40px;
+    text-align: center;
+}
+
+.portal-container {
+    display: flex;
+    align-items: center;
+}
+
+.align-items-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.peas-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-items-stretch img {
+    max-height: 325px;
+}
+
+.portal-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+ 
+.peas-container, .portal-text {
+    display: flex;
+    align-items: center; 
+}
+
+.portal-text h2, .portal-text button {
+    display: inline-block;
+}
+
+.portal-text button {
+    margin-bottom: 10px;
+}
+
+.portal-text p {
+    text-align: left;
+}
+
+.portal-text::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    background-color: #F7F4E3;
 }
 
 #passport-info {
@@ -86,6 +137,11 @@
 
 .user-input-component {
     text-align: center;
+}
+
+#giveaways {
+    font-size: 1.2em;
+    padding: 64px;
 }
 
 @media (min-width: 768px) {

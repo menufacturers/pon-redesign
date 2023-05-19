@@ -2,6 +2,7 @@ import "../assets/styles/Passport.css";
 import { Link } from "react-router-dom";
 import passport from "../assets/img/passport-2023.png"
 import waves from "../assets/img/decorative-elements/white-yellow-waves.png";
+import peas from "../assets/img/decorative-elements/peas.png"
 
 export default function Passport() {
     return (
@@ -37,28 +38,35 @@ export default function Passport() {
                     </div>
                     <br></br>
                     <h4><i class="fa-solid fa-fw fa-compass"></i> Visit One of Our Vendors</h4>
-                    <p class="explanation-subpoint">Pick up a free physical copy at any participating location.<br></br>Restaurants Link</p>
+                    <p class="explanation-subpoint">Pick up a free physical copy at any <a class="faq-hyperlink" href="https://pon-redesign-24b89.web.app/restaurants" target="_blank" rel="noreferrer"><i>participating location</i></a>.<br></br></p>
                     <h4><i class="fa-solid fa-fw fa-utensils"></i> Collect Stamps with Your Meal</h4>
-                    <p class="explanation-subpoint">Each restaurant restaurant has a unique stamp that you can collect by purchasing an event-exclusive sample platter.</p>
+                    <p class="explanation-subpoint">Each restaurant has a unique stamp that you can collect by purchasing an event-exclusive sample platter.</p>
                     <h4><i class="fa-solid fa-fw fa-gift"></i> Be Entered to Win Giveaways</h4>
                     <p class="explanation-subpoint">Each stamp you collect enters you into giveaways on our socials, and a grand finale raffle at the event's close.</p>
                     <h4><i class="fa-solid fa-fw fa-database"></i> Register Your Passoprt Online</h4>
                     <p class="explanation-subpoint">Create a digital copy of your tracker card so your collection is always on you, and so you may collect your prizes!</p>
-
                 </div>
             </section>
             <section id="passport-portal">
-                <div class="container">
-                    <div class="col-lg-portal">
-                        <h2>Digitize Your PON Passport for Convenient Access</h2>
-                        <p>Add stamps to your collection even if you forget your card at home. All you need is a valid phone number.</p>
-                        <p>Click the link below to register your Passport, or add stamps to your existing digital Passport.</p>
-                        <Link to='../digital-passport'>
-                            <button type="button" class="btn btn-link white-btn-link">Digitize <i class="fa-solid fa-arrow-right-long"></i></button>
-                        </Link>
+                <div class="container portal-container">
+                    <div class="row align-items-stretch">
+                        <div class="col-lg-2 peas-container">
+                            <img src={peas} alt="Decorative peas" class="img-fluid peas"></img>
+                        </div>
+                        <div class="col-lg-8 portal-text">
+                            <h2>Digitize Your Passport for Convenient Access</h2>
+                            <p>Add stamps to your collection even if you forget your card at home—all you need is a valid phone number. Click the link below to register or add stamps to your digital Passport!</p>
+                            <Link to="../digital-passport">
+                                <button type="button" class="btn btn-link white-btn-link">Digitize <i class="fa-solid fa-arrow-right-long"></i></button>
+                            </Link>
+                        </div>
+                        <div class="col-lg-2 peas-container">
+                            <img src={peas} alt="Decorative peas" class="img-fluid peas"></img>
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section id="giveaways">
                 <div class="container">
                     <div class="col-lg">
@@ -69,7 +77,6 @@ export default function Passport() {
                             <li>Gift cards to your favorite stores.</li>
                             <li>And limited Plate of Nations merchandise.</li><br></br></span>
                         <p>Also, each stamp collected on your Passport will enter your for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
-                        <button type="button" class="btn btn-link red-btn-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
                 </div>
             </section>

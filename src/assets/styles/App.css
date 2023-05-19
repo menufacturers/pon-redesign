@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 52px;
 }
 
 h3 {
@@ -35,6 +35,11 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 22px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .page-banner {
@@ -130,7 +135,6 @@ p {
 .btn-link {
   color: #212529;
   font-size: 30px;
-  padding-left: 0;
   text-decoration: none
 }
 

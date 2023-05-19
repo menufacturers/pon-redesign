@@ -66,7 +66,7 @@ export default function Home() {
                         <div class="col-lg-6 spotlight-text">
                             <h2>Vendor Spotlight</h2>
                             <p>Meet the stars behind the dishes you love! Our Vendor Spotlight shines a light on the amazing owners of the restaurants participating in Plate of Nations. Get to know their stories, their passions, and their secret recipes in this exciting and exclusive feature!</p>
-                            <button type="button" class="btn btn-link white-btn-link">Keep On Reading <i class="fa-solid fa-arrow-right-long" ></i></button>
+                            <button type="button" class="btn btn-link white-btn-link home-btn-link">Keep On Reading <i class="fa-solid fa-arrow-right-long" ></i></button>
                         </div>
                         <div class="col-lg-6 spotlight-img-container">
                             <img src={vendors} alt="Plate of Nations vendors" class="img-fluid spotlight-img" />
@@ -84,7 +84,7 @@ export default function Home() {
                             <h2>Mark Your Foodie Adventure</h2>
                             <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
                             <Link to="../passport">
-                                <button type="button" class="btn btn-link red-btn-link">Explore My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
+                                <button type="button" class="btn btn-link red-btn-link home-btn-link">Explore My Passport <i class="fa-solid fa-arrow-right-long" ></i></button>
                             </Link>
                         </div>
                     </div>
@@ -93,9 +93,6 @@ export default function Home() {
             <section id="promo-vid">
                 <div class="container vid-container">
                     <h2>See What's Cooking for Plate of Nations 2023</h2>
-                    {/* <div class="socials-text">
-                        <img class="waves-deco" src={beigewaves} alt="Decorative waves"></img>
-                    </div> */}
                     <div class="video-wrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/MevfZLOdIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>

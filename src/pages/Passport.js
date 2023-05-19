@@ -23,20 +23,19 @@ export default function Passport() {
                 </div>
             </section>
             <section id="passport-explanation">
-                <div class="container">
-                    <div class="col-lg">
-                        <h2>How the Plate of Nations Passport Works</h2>
-                        <br></br>
+                <div class="card-component" style={{backgroundColor:'#f7f4e3', color:'black'}}>
+                    <h2 style={{textAlign:'center'}}>How the Plate of Nations Passport Works</h2>
+                    <br></br>
 
-                        <h4><i class="fa-solid fa-fw fa-compass"></i> Visit One of Our Vendors</h4>
-                        <p class="explanation-subpoint">Pick up a free physical copy at any participating location.<br></br>Restaurants Link</p>
-                        <h4><i class="fa-solid fa-fw fa-utensils"></i> Collect Stamps with Your Meal</h4>
-                        <p class="explanation-subpoint">Each restaurant restaurant has a unique stamp that you can collect by purchasing an event-exclusive sample platter.</p>
-                        <h4><i class="fa-solid fa-fw fa-gift"></i> Be Entered to Win Giveaways</h4>
-                        <p class="explanation-subpoint">Each stamp you collect enters you into giveaways on our socials, and a grand finale raffle at the event's close.</p>
-                        <h4><i class="fa-solid fa-fw fa-database"></i> Register Your Passoprt Online</h4>
-                        <p class="explanation-subpoint">Create a digital copy of your tracker card so your collection is always on you, and so you may collect your prizes!</p>
-                    </div>
+                    <h4><i class="fa-solid fa-fw fa-compass"></i> Visit One of Our Vendors</h4>
+                    <p class="explanation-subpoint">Pick up a free physical copy at any participating location.<br></br>Restaurants Link</p>
+                    <h4><i class="fa-solid fa-fw fa-utensils"></i> Collect Stamps with Your Meal</h4>
+                    <p class="explanation-subpoint">Each restaurant restaurant has a unique stamp that you can collect by purchasing an event-exclusive sample platter.</p>
+                    <h4><i class="fa-solid fa-fw fa-gift"></i> Be Entered to Win Giveaways</h4>
+                    <p class="explanation-subpoint">Each stamp you collect enters you into giveaways on our socials, and a grand finale raffle at the event's close.</p>
+                    <h4><i class="fa-solid fa-fw fa-database"></i> Register Your Passoprt Online</h4>
+                    <p class="explanation-subpoint">Create a digital copy of your tracker card so your collection is always on you, and so you may collect your prizes!</p>
+                    
                 </div>
             </section>
             <section id="passport-portal">
@@ -45,7 +44,9 @@ export default function Passport() {
                         <h2>Digitize Your PON Passport for Convenient Access</h2>
                         <p>Add stamps to your collection even if you forget your card at home. All you need is a valid phone number.</p>
                         <p>Click the link below to register your Passport, or add stamps to your existing digital Passport.</p>
-                        <button type="button" class="btn btn-link white-btn-link">Digitize<i class="fa-solid fa-arrow-right-long"></i></button>
+                        <Link to='../digital-passport'>
+                            <button type="button" class="btn btn-link white-btn-link">Digitize<i class="fa-solid fa-arrow-right-long"></i></button>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -61,31 +62,6 @@ export default function Passport() {
                         <p>Also, each stamp collected on your Passport will enter your for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
                         <button type="button" class="btn btn-link red-btn-link">Learn More<i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
-                </div>
-            </section>
-            <section id="portal-intro">
-                <div class="container">
-                    <div class="col-lg">
-                        <h1>Your Digital PON Passport</h1>
-                        <p>Link your phone number and unique stamp IDs found at PON restaurants to easily access your Passport anytime and anywhere.</p>
-                    </div>
-                </div>
-            </section>
-            <section id="portal-visualizer">
-                <div class="card-component">
-                    <h3 style={{textAlign:'center'}}>Visualizer</h3>
-                    <p>Want to check if you've added all your stamps? Take a look at your collection by using our Digital Passport viewer.</p>
-                    <div class="user-input-component">
-                        <form action="">
-                            <label for="phone">Phone Number</label><br></br>
-                            <input type="text" id="phone" name="phone" value=""></input><br></br>
-                            <input type="submit" value="Check Stamps"></input>
-                        </form>
-                    </div>
-                    
-                    <p>Register a new Stamp</p>
-                    <p>Want to add a stamp to your collection? Enter your phone number and the stamp's id code below.</p>
-                    
                 </div>
             </section>
         </div>

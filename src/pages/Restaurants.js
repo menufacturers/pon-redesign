@@ -20,6 +20,7 @@ import banhmilogo from "../assets/img/restaurants/restaurant-logos/banhmilogo.pn
 import buddhalogo from "../assets/img/restaurants/restaurant-logos/buddhalogo.png";
 import bualogo from "../assets/img/restaurants/restaurant-logos/bualogo.png";
 import cafetalogo from "../assets/img/restaurants/restaurant-logos/cafetal-logo.png";
+import smallsamplelogo from "../assets/img/restaurants/restaurant-logos/smallsamplelogo.png";
 
 export default function Restaurants() {
     const [searchQuery, setSearchQuery] = useState("");
@@ -135,7 +136,7 @@ export default function Restaurants() {
             />
             
             <RestaurantInfo
-                logoImg={bananaslogo}
+                logoImg={smallsamplelogo}
                 logoAlt="Bananas Grill Logo"
                 menuOneImg={bananasgrill}
                 menuOneAlt="Picture of sample platter option 1 at Bananas Grill"

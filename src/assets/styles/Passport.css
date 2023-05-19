@@ -37,14 +37,13 @@ h1,
 }
 
 #passport-explanation {
-    background-color: #03264D;
+    background-color: #bd2429;
     color: white;
     font-size: 1.2em;
     padding: 64px;
 }
 
 .explanation-subpoint {
-    color: white;
     font-size: .8em;
     padding-left: 20px;
 }
@@ -78,7 +77,9 @@ h1,
 .card-component {
     color: white;
     background-color: #03264d;
-    margin: 50px;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
 }
 

@@ -43,7 +43,7 @@ export default function Restaurants() {
                 </div>
             </div>
             <SearchBar />
-            <a href="/menu">
+            {/* <a href="/menu">
             <i class="bi bi-list mobile-menu-icon"></i>
             </a>
             <button className="mobile-menu-icon">
@@ -52,7 +52,7 @@ export default function Restaurants() {
             ) : (
               <i className="fa fas-bars"></i>
             )}
-          </button>
+          </button> */}
             <RestaurantCard
                 imgLink={alem}
                 imgAlt="Alem food"

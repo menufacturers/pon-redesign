@@ -44,6 +44,9 @@
 .menu-two h4 {
     padding-top: 30px;
 }
+h1 {
+ color: black;
+}
 
 /* vendor about section */
 .vendor-info-container {

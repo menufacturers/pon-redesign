@@ -21,7 +21,7 @@ export default function Portal() {
                     
                     <div class="user-input-component">
                         <form action="">
-                            <input class="phone-input" name="phone" placeholder="{203) 555-0123"></input><br></br>
+                            <input class="phone-input" name="phone" placeholder="(203) 555-0123"></input><br></br>
                             <button type="button" onclick="imageShow()" class ="check-stamp-button">Check Stamps</button>
                         </form>
                     </div>

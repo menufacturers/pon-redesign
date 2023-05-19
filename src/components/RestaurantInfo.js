@@ -14,7 +14,7 @@ export default function RestaurantInfo(props) {
                 <div class="box">
                     <h2>Special Menus to Share </h2>
                     <p>Come sample shareable plates that are exclusively offered during this event!</p>
-                    <div class="box-img-container">
+                    <div class="box-img-container menu-waves-container">
                         <img src={waves} alt="Decorative waves"></img>
                     </div>
                     <div class="menu-one">
@@ -65,8 +65,8 @@ export default function RestaurantInfo(props) {
                         <img class="container-fluid" src={props.ownerImg} alt={props.ownerAlt} />
                     </div>
                     <div class="col-lg-6 owner-details">
-                        <h5>{props.restaurantName}</h5>
-                        <h3>{props.ownerName}</h3>
+                        <h4>{props.restaurantName}</h4>
+                        <h2>{props.ownerName}</h2>
                         <p>{props.story}</p>
                         <p>{props.story2}</p>
                         <p>{props.story3}</p>

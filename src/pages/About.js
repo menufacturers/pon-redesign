@@ -36,7 +36,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <section id="faq">
+            {/* <section id="faq">
                 <div class="box">
                     <h3>How To Participate</h3>
                     <div class="box-img-container">
@@ -49,6 +49,25 @@ export default function About() {
                         <li><i class="fa-solid fa-stamp"></i> <b>Stamp Your Passport:</b> Physically stamp your paper passport or scan the QR code at the restaurant to stamp your digital passport</li>
                         <li><i class="fa-solid fa-share-nodes"></i> <b>Share & Win:</b> Share your journey on social media with <a class="faq-hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer"><i>#PlateOfNations2023</i></a> for a chance to win exciting prizes</li>
                     </ul>
+                </div>
+            </section> */}
+            <section id="faq">
+                <div class="card-component" style={{ backgroundColor: '#F2C94C', color: 'black' }}>
+                    <h3 style={{ textAlign: 'center' }}>How It Works</h3>
+                    <div class="exp-img-container">
+                        <img src={waves} alt="Decorative waves"></img>
+                    </div>
+                    <br></br>
+                    <h4><i class="fa-solid fa-passport"></i> Get a Passport</h4>
+                    <p class="explanation-subpoint">Grab a physical copy at a participating restaurant or track it digitally here on <Link to="../passport" class="faq-hyperlink"><i>plateofnations.com</i>.</Link></p>
+                    <h4><i class="fa-solid fa-compass"></i> Discover Restaurants</h4>
+                    <p class="explanation-subpoint">Explore and visit our participating restaurants.</p>
+                    <h4><i class="fa-solid fa-utensils"></i> Try Sample Plates</h4>
+                    <p class="explanation-subpoint">Order a "Plate of Nations Sample Plate.</p>
+                    <h4><i class="fa-solid fa-stamp"></i> Stamp Your Passport</h4>
+                    <p class="explanation-subpoint">Physically stamp your paper passport or scan the QR code at the restaurant to stamp your digital passport.</p>
+                    <h4><i class="fa-solid fa-share-nodes"></i> Share & Win</h4>
+                    <p class="explanation-subpoint">Share your journey on social media with <a class="faq-hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer"><i>#PlateOfNations2023</i></a> for a chance to win exciting prizes!</p>
                 </div>
             </section>
             <section id="history">

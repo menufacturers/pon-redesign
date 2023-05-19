@@ -8,6 +8,10 @@
     text-align:center;
 }
 
+.menu li {
+    text-align: center;
+}
+
 .menu-one img, .menu-two img {
     width:100%;
     height:auto;

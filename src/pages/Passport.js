@@ -1,6 +1,7 @@
 import "../assets/styles/Passport.css";
 import grand_prize from "../assets/img/social-posts/grand-prize.jpg"
 import { Link } from "react-router-dom";
+import dashes from "../assets/img/decorative-elements/beige-dashes.png"
 import passport from "../assets/img/passport-2023.png";
 import waves from "../assets/img/decorative-elements/white-yellow-waves.png";
 import peas from "../assets/img/decorative-elements/peas-orange.png";
@@ -20,9 +21,10 @@ export default function Passport() {
                 <div class="container overview-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 overview-text">
+                            <img src={dashes} alt="Decorative dashes" class="dashes"></img>
                             <h2>What is the PON Passport?</h2>
-                            <p>To commenorate your trip around the world, pick up one of our "Passport" tracker cards!</p>
-                            <p>Each restaurant has a unique stamp that you can collect by ordering a meal. What better way to remember your trip around the world than with a <b>special souvenier</b> to record your journey?</p>
+                            <p>To commemorate your culinary trip around Southeast Seattle, pick up one of our "Passport" tracker cards!</p>
+                            <p>Each restaurant has a unique stamp that you can collect by ordering a meal. What better way to remember your Plate of Nations experience than with a <i>special souvenier</i> to record your journey?</p>
                         </div>
                         <div class="col-lg-6 overview-img-container">
                             <img src={passport} alt="Plate of Nations 2023 promotional poster" class="img-fluid overview-img" />
@@ -66,22 +68,42 @@ export default function Passport() {
                     </div>
                 </div>
             </section>
-
             <section id="giveaways">
-                <div class="container overview-container">
+                {/* <div class="container overview-container">
                     <div class="row align-items-center">
+                        <div class="col-lg-6 overview-img-container">
+                            <img src={grand_prize} alt="Plate of Nations Grand Prize" class="grand-prize-img img-fluid" />
+                        </div>
                         <div class="col-lg-6 overview-text">
+                            <div class="dashes-container">
+                                <img src={dashes} alt="Decorative dashes" class="dashes"></img>
+                            </div>
                             <h2>Giveaways</h2>
                             <p>Throughout the event, we’ll be running daily contests through social media. Enter using <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer">#PlateOfNations2023</a> for a chance to win:</p>
                             <span style={{ textIndent: '20px' }}>
-                                <li>Free meals from participating PON restaurants.</li>
-                                <li>Gift cards to your favorite stores.</li>
-                                <li>And limited Plate of Nations merchandise.</li><br></br></span>
-                            <p>Also, each stamp collected on your Passport will enter your for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
-                            
-                            <div class="row align-items-center">
-                                <img src={grand_prize} alt="Plate of Nations Grand Prize" class="grand-prize-img img-fluid" />
+                                <li><i class="fa-solid fa-fire"></i> Free meals from participating PON restaurants</li>
+                                <li><i class="fa-solid fa-fire"></i> Gift cards to your favorite stores</li>
+                                <li><i class="fa-solid fa-fire"></i> And limited Plate of Nations merchandise</li><br></br></span>
+                            <p>Each stamp collected on your Passport will also enter you for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
+                        </div>
+                    </div>
+                </div> */}
+                <div class="container overview-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 overview-img-container">
+                            <img src={grand_prize} alt="Plate of Nations Grand Prize" class="grand-prize-img img-fluid" />
+                        </div>
+                        <div class="col-lg-6 overview-text giveaway-text">
+                            <div class="dashes-container">
+                                <img src={dashes} alt="Decorative dashes" class="dashes"></img>
                             </div>
+                            <h2>Giveaways</h2>
+                            <p>Throughout the event, we’ll be running daily contests through social media. Enter using <a class="hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer">#PlateOfNations2023</a> for a chance to win:</p>
+                            <span style={{ textIndent: '20px' }}>
+                                <li><i class="fa-solid fa-fire"></i> Free meals from participating PON restaurants</li>
+                                <li><i class="fa-solid fa-fire"></i> Gift cards to your favorite stores</li>
+                                <li><i class="fa-solid fa-fire"></i> And limited Plate of Nations merchandise</li><br></br></span>
+                            <p>Each stamp collected on your Passport will also enter you for a chance to win a prize from our event wrap-up raffle on April 9th!</p>
                         </div>
                     </div>
                 </div>

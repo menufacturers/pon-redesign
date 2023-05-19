@@ -2,8 +2,20 @@
     background-image: url('../img/banners/passport-banner.jpg');
 }
 
+.dashes {
+    width: 30%;
+}
+
+#passport-overview .dashes {
+    padding-bottom: 20px;
+}
+
 #passport-overview .overview-text {
     position: relative;
+}
+
+#passport-overview i {
+    font-weight: 600;
 }
 
 #passport-overview .overview-img-container {
@@ -34,7 +46,7 @@
     margin-right: auto;
     padding: 50px;
 }
- 
+
 #passport-explanation {
     background-image: url('../img/restaurants/food/emeraldcity.jpg');
     background-size: cover;
@@ -90,16 +102,18 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     text-align: center;
 }
- 
-.peas-container, .portal-text {
+
+.peas-container,
+.portal-text {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
-.portal-text h2, .portal-text button {
+.portal-text h2,
+.portal-text button {
     display: inline-block;
 }
 
@@ -144,27 +158,25 @@
     padding: 30px;
 }
 
-.grand-prize-img {
-    max-width: 80%;
-    margin: auto;
-    padding: 32px;
-}
-
 .user-input-component {
     text-align: center;
 }
 
 /* Giveaways */
-.overview-img {
+.grand-prize-img {
     border: 14px solid white;
 }
 
-@media (min-width: 768px) {
-    .hero-banner {
-        height: 100vh;
-    }
+.giveaway-text {
+    padding-left: 0;
+}
 
-    .btn-block {
-        width: 100%;
-    }
+.dashes-container {
+    text-align: right;
+}
+
+#giveaways li {
+    list-style: none;
+    font-weight: 600;
+    padding-top: 10px;
 }

@@ -30,11 +30,16 @@
 
   ul {
       margin-left: -36px;
-      list-style-type: disc;
+      list-style: none;
       color: black;
       font-weight: bold;
       font-family: 'Montserrat', sans-serif;
   }
+
+  i {
+    padding-right:5px;
+  }
+
   iframe {
         width: 400px;
         height: 250px;
@@ -47,7 +52,7 @@
   }
   .press-link:hover {
     color: #F2C94C;
-}
+  }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .press-container {

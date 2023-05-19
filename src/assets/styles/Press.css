@@ -2,6 +2,10 @@
     background-image: url('../img/banners/press-banner.jpg');
 }
 
+.press-banner::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .press-container {
     padding-left: 20px;
     padding-right:20px;

@@ -1,5 +1,6 @@
 import "../assets/styles/About.css";
 import { Link } from "react-router-dom";
+import dashes from "../assets/img/decorative-elements/beige-dashes.png"
 import decoposter from "../assets/img/posters/poster-2023.png"
 import waves from "../assets/img/decorative-elements/white-yellow-waves.png";
 import asari from "../assets/img/vendors/asari.png"
@@ -25,6 +26,7 @@ export default function About() {
                 <div class="container overview-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 overview-text">
+                        <img src={dashes} alt="Decorative dashes" class="dashes"></img>
                             <h2>A Feast for the Senses</h2>
                             <p>Whether you’re looking for Mexico City-style street food like guaraches and tortas, Ethiopian classics served over fresh injera, or smoky Vietnamese claypot, Southeast Seattle has it all. For two weeks every spring, Plate of Nations invites food lovers and curiosity seekers to sample $20 and $35 shareable plates offered by restaurants in the city’s most diverse neighborhoods.</p>
                         </div>
@@ -49,17 +51,20 @@ export default function About() {
                     </ul>
                 </div>
             </section>
-            <section id="passport">
-                <div class="container passport-container">
+            <section id="history">
+                <div class="container history-container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 passport-img-container">
-                            <img src={asari} alt="Plate of Nations Passport" class="img-fluid passport-img" />
+                        <div class="col-lg-6 history-img-container">
+                            <img src={asari} alt="Plate of Nations Passport" class="img-fluid history-img" />
                         </div>
-                        <div class="col-lg-6 passport-text">
+                        <div class="col-lg-6 passport-text history-text">
+                        <div class="dashes-container">
+                                <img src={dashes} alt="Decorative dashes" class="dashes"></img>
+                            </div>
                             <h2>Our History</h2>
                             <p>In 2010, Asari Mohamath, a Cham Muslim refugee from Vietnam and former owner of Salima restaurant, had a vision to develop a unified marketing event to highlight the unique and authentic cuisines offered by MLK restaurants.</p>
                             <Link to="../about">
-                                <button type="button" class="btn btn-link red-btn-link">2010 <i class="fa-solid fa-arrow-right-long" ></i></button>
+                                <button type="button" class="btn btn-link red-btn-link history-btn">2010 <i class="fa-solid fa-arrow-right-long" ></i></button>
                             </Link>
                         </div>
                     </div>

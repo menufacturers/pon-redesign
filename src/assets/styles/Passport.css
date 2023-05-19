@@ -75,6 +75,7 @@
     font-size: 1.2em;
     padding: 40px;
     text-align: center;
+    color: #F7F4E3;
 }
 
 .portal-container {
@@ -163,6 +164,7 @@
 }
 
 /* Giveaways */
+#passport-overview .overview-img,
 .grand-prize-img {
     border: 14px solid white;
 }

@@ -19,7 +19,7 @@ export default function Alem() {
                 menuTwoPrice="35"
                 menuTwoDesc="Dolmas, Falafel, Hummus & Pita, Beef & Lamb Gyro Meat, Grilled Salt and Pepper Lemon Fish, Chicken Shwarma or Chicken Kabob, Rice and Salad"
 
-                restaurantName="Bananas Grill"
+                restaurantName="Alem"
                 desc="Bananas Grill is a familiy-owned restaurant offering a tasty fusion of American, Mediteranean, and Halal fast food. Attendees not only love Bananas Grill's delicious dishes, but enjoy their warm and friendly service!"
                 yearJoined="2011"
                 streetAddress="4556 Martin Luther King Jr Way South"

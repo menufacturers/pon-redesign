@@ -46,7 +46,7 @@ export default function RestaurantInfo(props) {
                         <h4>Address</h4>
                         <p>{props.streetAddress}</p>
                         <p>{props.city}, WA {props.zipcode}, United States</p>
-                        <a href={props.mapsUrl} role="button" class="btn btn-outline-secondary btn-lg px-4"> Open in Google Maps</a>
+                        <a href={props.mapsUrl} role="button" target="_blank" rel="noreferrer" class="btn btn-outline-secondary btn-lg px-4"> Open in Google Maps</a>
                         <h4>Hours</h4>
                         <p>Mon - Fri: {props.weekdayHours}</p>
                         <p>Sat: {props.satHours}</p>

@@ -2,6 +2,10 @@
     background-image: url('../img/banners/restaurant-banner.jpg');
 }
 
+.restaurants-banner::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .restaurant-header p {
     font-size: 18px;
     color:white;

@@ -3,7 +3,19 @@
     background-image: url('../img/banners/about-banner.jpeg');
 }
 
+.about-banner::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* Overview */
+.dashes {
+    width: 30%;
+}
+
+#event-overview .dashes {
+    padding-bottom: 20px;
+}
+
 .overview-text {
     position: relative;
 }
@@ -113,6 +125,57 @@
         margin: 100px 300px;
         padding: 60px;
     }
+}
+
+/* History */
+/* .history-text {
+    position: relative;
+}
+
+.history-text::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+} */
+
+/* .history-text::after {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: #F7F4E3;
+} */
+
+.btn-link {
+    margin-bottom: 50px;
+}
+
+.history-btn {
+    padding-left: 0;
+}
+
+.history-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-img {
+    width: 100%;
+    height: auto;
+}
+
+.history-container {
+    margin: 100px auto;
+}
+
+/* .history-text {
+    padding: 25px 24px;
+} */
+
+.history-text::after {
+    /* display: block; */
+    background-color: #5E5B4B;
+    /* margin-top: -10px; */
 }
 
 /* Sponsors Logo */

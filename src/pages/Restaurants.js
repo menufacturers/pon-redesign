@@ -82,7 +82,7 @@ export default function Restaurants() {
                 cuisine={"American, Mexican, New Mexican"}
                 hours="4:00 PM - 10:00 PM"
                 location="Othello"
-                visitLink="../restaurants"
+                visitLink="../bangbangkitchen"
             />
             <RestaurantCard
                 imgLink={banhmi}
@@ -93,7 +93,7 @@ export default function Restaurants() {
                 cuisine={"Vietnamese"}
                 hours="10:00 AM - 8:00 PM"
                 location="MLK"
-                visitLink="../restaurants"
+                visitLink="../banhmideluxe"
             />
             <RestaurantCard
                 imgLink={buathai}
@@ -104,7 +104,7 @@ export default function Restaurants() {
                 cuisine={"Thai"}
                 hours="11:00 AM - 9:30 PM"
                 location="Columbia City"
-                visitLink="../restaurants"
+                visitLink="../bua9thai"
             />
             <RestaurantCard
                 imgLink={buddhabrud}
@@ -115,7 +115,7 @@ export default function Restaurants() {
                 cuisine={"Hawaiian, Thai"}
                 hours="11:00 AM - 8:00 PM"
                 location="Mount Baker"
-                visitLink="../restaurants"
+                visitLink="../buddhabruddah"
             />
             <RestaurantCard
                 imgLink={cafetal}
@@ -126,7 +126,7 @@ export default function Restaurants() {
                 cuisine={"Mexican"}
                 hours="10:00 AM - 7:00 PM"
                 location="Beacon Hill"
-                visitLink="../restaurants"
+                visitLink="../cafetalquilombo"
             />
         </div>
     );

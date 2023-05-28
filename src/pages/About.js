@@ -1,5 +1,6 @@
 import "../assets/styles/About.css";
 import { Link } from "react-router-dom";
+import dashes from "../assets/img/decorative-elements/beige-dashes.png"
 import decoposter from "../assets/img/posters/poster-2023.png"
 import waves from "../assets/img/decorative-elements/white-yellow-waves.png";
 import asari from "../assets/img/vendors/asari.png"
@@ -25,6 +26,7 @@ export default function About() {
                 <div class="container overview-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 overview-text">
+                        <img src={dashes} alt="Decorative dashes" class="dashes"></img>
                             <h2>A Feast for the Senses</h2>
                             <p>Whether you’re looking for Mexico City-style street food like guaraches and tortas, Ethiopian classics served over fresh injera, or smoky Vietnamese claypot, Southeast Seattle has it all. For two weeks every spring, Plate of Nations invites food lovers and curiosity seekers to sample $20 and $35 shareable plates offered by restaurants in the city’s most diverse neighborhoods.</p>
                         </div>
@@ -34,7 +36,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <section id="faq">
+            {/* <section id="faq">
                 <div class="box">
                     <h3>How To Participate</h3>
                     <div class="box-img-container">
@@ -48,18 +50,40 @@ export default function About() {
                         <li><i class="fa-solid fa-share-nodes"></i> <b>Share & Win:</b> Share your journey on social media with <a class="faq-hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer"><i>#PlateOfNations2023</i></a> for a chance to win exciting prizes</li>
                     </ul>
                 </div>
+            </section> */}
+            <section id="faq">
+                <div class="card-component" style={{ backgroundColor: '#F2C94C', color: 'black' }}>
+                    <h3 style={{ textAlign: 'center' }}>How It Works</h3>
+                    <div class="exp-img-container">
+                        <img src={waves} alt="Decorative waves"></img>
+                    </div>
+                    <br></br>
+                    <h4><i class="fa-solid fa-passport"></i> Get a Passport</h4>
+                    <p class="explanation-subpoint">Grab a physical copy at a participating restaurant or track it digitally here on <Link to="../passport" class="faq-hyperlink"><i>plateofnations.com</i>.</Link></p>
+                    <h4><i class="fa-solid fa-compass"></i> Discover Restaurants</h4>
+                    <p class="explanation-subpoint">Explore and visit our participating restaurants.</p>
+                    <h4><i class="fa-solid fa-utensils"></i> Try Sample Plates</h4>
+                    <p class="explanation-subpoint">Order a "Plate of Nations Sample Plate.</p>
+                    <h4><i class="fa-solid fa-stamp"></i> Stamp Your Passport</h4>
+                    <p class="explanation-subpoint">Physically stamp your paper passport or scan the QR code at the restaurant to stamp your digital passport.</p>
+                    <h4><i class="fa-solid fa-share-nodes"></i> Share & Win</h4>
+                    <p class="explanation-subpoint">Share your journey on social media with <a class="faq-hyperlink" href="https://www.instagram.com/explore/tags/plateofnations2023/" target="_blank" rel="noreferrer"><i>#PlateOfNations2023</i></a> for a chance to win exciting prizes!</p>
+                </div>
             </section>
-            <section id="passport">
-                <div class="container passport-container">
+            <section id="history">
+                <div class="container history-container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 passport-img-container">
-                            <img src={asari} alt="Plate of Nations Passport" class="img-fluid passport-img" />
+                        <div class="col-lg-6 history-img-container">
+                            <img src={asari} alt="Plate of Nations Passport" class="img-fluid history-img" />
                         </div>
-                        <div class="col-lg-6 passport-text">
+                        <div class="col-lg-6 passport-text history-text">
+                        <div class="dashes-container">
+                                <img src={dashes} alt="Decorative dashes" class="dashes"></img>
+                            </div>
                             <h2>Our History</h2>
                             <p>In 2010, Asari Mohamath, a Cham Muslim refugee from Vietnam and former owner of Salima restaurant, had a vision to develop a unified marketing event to highlight the unique and authentic cuisines offered by MLK restaurants.</p>
                             <Link to="../about">
-                                <button type="button" class="btn btn-link red-btn-link">2010 <i class="fa-solid fa-arrow-right-long" ></i></button>
+                                <button type="button" class="btn btn-link red-btn-link history-btn">2010 <i class="fa-solid fa-arrow-right-long" ></i></button>
                             </Link>
                         </div>
                     </div>

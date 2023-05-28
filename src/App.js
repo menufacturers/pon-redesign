@@ -10,6 +10,11 @@ import About from './pages/About';
 import Portal from './pages/Portal';
 import Alem from './pages/subpages/Alem';
 import BananasGrill from './pages/subpages/BananasGrill';
+import BangBangKitchen from './pages/subpages/BangBangKitchen';
+import BanhMiDeluxe from './pages/subpages/BanhMiDeluxe';
+import Bua9Thai from './pages/subpages/Bua9Thai';
+import BuddhaBruddah from './pages/subpages/BuddhaBruddah';
+import CafetalQuilombo from './pages/subpages/CafetalQuilombo';
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
         <Route path="restaurants" element={<Restaurants />} />
         <Route path="alem" element={<Alem />} />
         <Route path="bananasgrill" element={<BananasGrill />} />
+        <Route path="bangbangkitchen" element={<BangBangKitchen />} />
+        <Route path="banhmideluxe" element={<BanhMiDeluxe />} />
+        <Route path="bua9thai" element={<Bua9Thai />} />
+        <Route path="buddhabruddah" element={<BuddhaBruddah />} />
+        <Route path="cafetalquilombo" element={<CafetalQuilombo />} />
         <Route path="digital-passport" element={<Portal />} />
         <Route path="passport" element={<Passport />} />
         <Route path="press" element={<Press />} />

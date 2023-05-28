@@ -33,7 +33,7 @@ export default function Home() {
                                 <div class="food-overlay-text">
                                     <h3>Alem</h3>
                                     <p>Chicken tibs / spicy chicken / veggie platter with injera bread</p>
-                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../alem">View More</Link>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ export default function Home() {
                                 <div class="food-overlay-text">
                                     <h3>Bananas Grill</h3>
                                     <p>Falafal, hummus & pita, dolmas, vegeterian sambusas, rice</p>
-                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../bananasgrill">View More</Link>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export default function Home() {
                                 <div class="food-overlay-text">
                                     <h3>Bang Bang Kitchen</h3>
                                     <p>Chips with salsa / hatch chile queso, chicken wings, fried brussel sprouts, enchiladas ...</p>
-                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../restaurants">View More</Link>
+                                    <Link role="button" class="btn btn-outline-secondary btn-lg px-4" to="../bangbangkitchen">View More</Link>
                                 </div>
                             </div>
                         </div>

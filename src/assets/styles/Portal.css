@@ -43,7 +43,7 @@ h1,
 
 .card-component {
     color: white;
-    background-color: #03264d;
+    background-color: #B4352E;
     border-radius: 12px;
     max-width: 60ch;
     margin-left: auto;
@@ -62,8 +62,9 @@ h1,
     margin-bottom: 16px;
     padding: 8px 20px;
     color: #f7f4e3;
-    background-color: #03264d;
-    font-size: 20px;
+    background-color: #B4352E;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
     border: 2px solid #f7f4e3;
     border-radius: 10px;
     transition-duration: 0.4s;
@@ -71,8 +72,8 @@ h1,
 
 .check-stamp-button:hover {
     background-color: #f7f4e3;
-    color: #03264d;
-    border: 2px solid #03264d;
+    color: #B4352E;
+    border: 2px solid #B4352E;
 }
 
 .phone-input {

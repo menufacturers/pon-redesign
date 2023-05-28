@@ -2,6 +2,7 @@ import RestaurantInfo from '../../components/RestaurantInfo';
 import bananasgrill from "../../assets/img/restaurants/food/bananasgrill.png";
 import bananasgrill2 from "../../assets/img/restaurants/food/bananasgrill2.png";
 import farah from "../../assets/img/vendors/farah-ismail.png"
+import farahismail from "../../assets/img/vendors/farah.png";
 import smallsamplelogo from "../../assets/img/restaurants/restaurant-logos/smallsamplelogo.png";
 
 export default function BananasGrill() {
@@ -35,7 +36,7 @@ export default function BananasGrill() {
                 satHours="11:00am - 7:30pm"
                 sunHours="Closed"
 
-                ownerImg={farah}
+                ownerImg={farahismail}
                 ownerAlt="Profile Picture of Farah Isamil"
                 ownerName="Farah Ismail"
                 story="After working hard, planning and saving for nearly 15 years, Farah Ismail finally opened Bananas Grill restaurant in the Rainier Valley. 'I wanted to fill a need in the community for Halal fast food,' he said. Farah and his family have always had a passion and love for cooking and eating. They love the art of cooking and it brings them joy to see others enjoy their passion. Bananas Grill has high-quality and fresh food, passion, and warm and friendly service."

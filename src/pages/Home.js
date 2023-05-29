@@ -5,7 +5,8 @@ import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
 import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
 import vendors from "../assets/img/vendors/vendors-deco.png";
 import dashes from "../assets/img/decorative-elements/beige-dashes.png"
-import passport from "../assets/img/passport-2023.png";
+import royaldish from "../assets/img/restaurants/food/royal-dish.png";
+import stamp from "../assets/img/decorative-elements/world-stamp.png";
 import waves from "../assets/img/decorative-elements/beige-waves.png";
 import post1 from "../assets/img/social-posts/post-1.jpg";
 import post2 from "../assets/img/social-posts/post-2.jpeg";
@@ -79,7 +80,7 @@ export default function Home() {
                 <div class="container passport-container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 passport-img-container">
-                            <img src={passport} alt="Plate of Nations Passport" class="img-fluid passport-img" />
+                            <img src={stamp} alt="Plate of Nations Passport" class="img-fluid passport-img" />
                         </div>
                         <div class="col-lg-6 passport-text">
                             <img src={dashes} alt="Decorative dashes" class="dashes"></img>
@@ -100,6 +101,20 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            {/* <section id="promo-vid">
+                <div class="container vid-container">
+                    <div class="photo-wrapper left">
+                        <img src={royaldish} alt="Left Image" />
+                    </div>
+                    <div class="photo-wrapper right">
+                        <img src={royaldish} alt="Right Image" />
+                    </div>
+                    <h2>See What's Cooking for Plate of Nations</h2>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MevfZLOdIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section> */}
             <section id="socials">
                 <div class="container socials-container">
                     <div class="row align-items-center">

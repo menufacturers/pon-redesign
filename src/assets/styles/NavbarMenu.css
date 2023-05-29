@@ -25,14 +25,16 @@
 }
 
 .nav-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #76725E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    /* color: #76725E; */
+    color: #5E5B4B;
 }
 
 .nav-link:hover {
-    color: #5E5B4B;
+    /* color: #5E5B4B; */
+    color: #76725E;
 }
 
 .nav-link:active {
@@ -50,11 +52,13 @@
 
 .nav-fa-solid {
     padding: 5px 0;
-    color: #76725E;
+    /* color: #76725E; */
+    color: #5E5B4B;
 }
 
 .nav-fa-solid:hover {
-    color: #5E5B4B;
+    /* color: #5E5B4B; */
+    color: #76725E;
 }
 
 @media (min-width: 768px) {

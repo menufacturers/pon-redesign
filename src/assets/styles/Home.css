@@ -119,7 +119,7 @@ h1,
 #spotlight {
     background-color: #F1BC32;
     font-size: 1.2em;
-    padding: 50px 1.5rem;
+    padding: 30px 1.5rem;
 }
 
 .spotlight-container {
@@ -128,6 +128,10 @@ h1,
 
 .spotlight-text {
     padding: 0;
+}
+
+#passport {
+    padding: 60px 0;
 }
 
 .spotlight-text,
@@ -170,13 +174,9 @@ h1,
     height: auto;
 }
 
-.passport-img {
-    border: 10px solid white;
-}
-
-.passport-container {
+/* .passport-container {
     margin: 100px auto;
-}
+} */
 
 .passport-text {
     padding: 25px 24px;
@@ -189,19 +189,19 @@ h1,
 }
 
 #promo-vid {
-    /* background-color: #E7732B; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60vh;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 @media (min-width: 768px) {
     #promo-vid {
         height: 80vh;
-        padding-top: 300px;
-        padding-bottom: 300px;
+        padding-top: 360px;
+        padding-bottom: 380px;
     }
 }
 
@@ -229,8 +229,79 @@ h1,
     height: 100%;
 }
 
+/* #promo-vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    #promo-vid {
+        height: 80vh;
+        padding-top: 360px;
+        padding-bottom: 380px;
+    }
+}
+
+.vid-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.vid-container h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-wrapper {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.photo-wrapper.left {
+    left: 0;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+.photo-wrapper.right {
+    right: 0;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+
+.photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+
+/* Social Media Feed */
+#socials {
+    padding: 60px 0;
+}
+
 .socials-container {
-    margin: 70px auto;
     padding: 0 1.5rem;
 }
 
@@ -294,9 +365,9 @@ h1,
         height: auto;
     }
 
-    .socials-container {
+    /* .socials-container {
         margin: 100px auto;
-    }
+    } */
 
     .socials-text {
         margin-bottom: 20px;

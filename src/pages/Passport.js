@@ -11,7 +11,7 @@ export default function Passport() {
         <div>
             <div class="page-banner passport-banner">
                 <div>
-                    <h1>Plate of Nations Passport</h1>
+                    <h1>Passport</h1>
                 </div>
                 <div>
                     <p class="page-description">Travel the world from your plate and create a delicious journey to remember.</p>

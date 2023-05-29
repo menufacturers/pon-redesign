@@ -92,7 +92,7 @@ export default function Home() {
             </section>
             <section id="promo-vid">
                 <div class="container vid-container">
-                    <h2>See What's Cooking for Plate of Nations 2023</h2>
+                    <h2>See What's Cooking for Plate of Nations</h2>
                     <div class="video-wrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/MevfZLOdIlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>

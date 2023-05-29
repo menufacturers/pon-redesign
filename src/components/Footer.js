@@ -6,7 +6,7 @@ export default function Footer() {
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; 2023 Plate of Nations • All rights reserved</span>
+                        <span class="copyright">&copy; 2023 Plate of Nations • All rights reserved</span>
                     </div>
                     <div class="col-md-4">
                     </div>

@@ -3,7 +3,7 @@
 }
 
 .nav-color {
-    background-color: #ECE4BB;
+    background-color: #EFE9C7;
 }
 
 .navbar-brand,
@@ -25,8 +25,9 @@
 }
 
 .nav-link {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     color: #76725E;
 }
 

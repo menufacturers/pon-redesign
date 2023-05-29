@@ -35,8 +35,9 @@ h1,
 }
 
 .event-date {
+    font-family: 'Mansalva', cursive;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 2rem;
 }
 
@@ -184,7 +185,7 @@ h1,
 }
 
 #promo-vid {
-    /* background-color: #212529; */
+    /* background-color: #E7732B; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +260,7 @@ h1,
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    border: 12px solid white;
+    border: 10px solid white;
 }
 
 .col-lg-4:hover .insta-post {

@@ -1,8 +1,9 @@
 .footer {
     padding: 1.5em 0;
     background-color: #ECE4BB;
-    font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #5e5b4b;
 }
 

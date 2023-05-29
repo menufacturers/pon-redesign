@@ -170,6 +170,10 @@ h1,
     height: auto;
 }
 
+.passport-img {
+    border: 10px solid white;
+}
+
 .passport-container {
     margin: 100px auto;
 }

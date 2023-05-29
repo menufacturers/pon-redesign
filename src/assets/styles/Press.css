@@ -25,7 +25,7 @@
   }
   
   .year-group a {
-    color: #B32317;
+    color: #212529;
   }
   .year-group li {
       margin-left: 5px;
@@ -55,7 +55,7 @@
       display:inline-block;
   }
   .press-link:hover {
-    color: #F2C94C;
+    color: #BD2329;
   }
 
 @media (min-width: 768px) and (max-width: 991px) {

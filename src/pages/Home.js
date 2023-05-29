@@ -4,6 +4,7 @@ import alem from "../assets/img/restaurants/food/alem.png";
 import bananasgrill from "../assets/img/restaurants/food/bananasgrill.png";
 import bangkitchen from "../assets/img/restaurants/food/bangkitchen.png";
 import vendors from "../assets/img/vendors/vendors-deco.png";
+import dashes from "../assets/img/decorative-elements/beige-dashes.png"
 import passport from "../assets/img/passport-2023.png";
 import waves from "../assets/img/decorative-elements/beige-waves.png";
 import post1 from "../assets/img/social-posts/post-1.jpg";
@@ -81,6 +82,7 @@ export default function Home() {
                             <img src={passport} alt="Plate of Nations Passport" class="img-fluid passport-img" />
                         </div>
                         <div class="col-lg-6 passport-text">
+                            <img src={dashes} alt="Decorative dashes" class="dashes"></img>
                             <h2>Mark Your Foodie Adventure</h2>
                             <p>Transform your culinary adventure into an interactive and exciting journey, and get a chance to win amazing prizes. Get your digital passport today and embark on an experience like no other!</p>
                             <Link to="../passport">

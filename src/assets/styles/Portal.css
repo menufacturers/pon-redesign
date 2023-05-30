@@ -76,8 +76,42 @@ h1,
     border: 2px solid #B4352E;
 }
 
-.phone-input {
+.tab-container {
+    text-align: center;
+}
+
+.tab {
+    flex: 1;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding: 8px 20px;
+    width: 50%;
+    color: #f7f4e3;
+    background-color: #B4352E;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border: 2px solid #f7f4e3;
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    transition-duration: 0.4s;
+}
+
+.tab:hover {
+    background-color: #f7f4e3;
+    color: #B4352E;
+    border: 2px solid #B4352E;
+}
+
+.active-tab {
+    color: #B4352E;
+    background-color: #f7f4e3;
+    border-bottom: 1px solid #f7f4e3;
+}
+
+.phone-input, .stamp-input {
     margin: 16px;
+    margin-bottom: 32px;
 }
 
 .user-input-component {

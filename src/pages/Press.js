@@ -21,7 +21,7 @@ const Press = () => {
     <div>
       <div className="page-banner press-banner">
         <div>
-          <h1>Media</h1>
+          <h1>Press</h1>
           <div>
             <p className="page-description">
               Get the scoop on Plate of Nations media mentions and press outreach initiatives.

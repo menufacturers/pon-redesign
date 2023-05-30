@@ -12,7 +12,12 @@ h5,
 .btn-primary,
 .btn-outline-secondary,
 .btn-link {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Mansalva', cursive;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -38,7 +43,7 @@ h5 {
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 li {
@@ -51,7 +56,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 320px;
   background-size: cover;
   background-position: center;
   color: #ffffff;

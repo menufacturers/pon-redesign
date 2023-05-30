@@ -1,8 +1,9 @@
 .footer {
     padding: 1.5em 0;
     background-color: #ECE4BB;
-    font-size: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #5e5b4b;
 }
 
@@ -15,6 +16,8 @@
 
 .col-md-4:last-child i {
     margin-right: 10px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .socials-icon {
@@ -28,5 +31,9 @@
 @media (min-width: 768px) {
     .col-md-4:last-child {
         justify-content: right;
+    }
+
+    .col-md-4:last-child i {
+        padding-top: 0;
     }
 }

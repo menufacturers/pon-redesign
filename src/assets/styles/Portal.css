@@ -3,10 +3,6 @@ h1,
     color: white;
 }
 
-.hero-container {
-    padding: 50px 20px;
-}
-
 .passport-banner {
     position: relative;
     padding-top: 100px;
@@ -24,11 +20,6 @@ h1,
 
 .intro-text {
     font-size: 64px;
-}
-
-.lead {
-    font-size: 24px;
-    font-weight: 500;
 }
 
 .portal-visualizer {
